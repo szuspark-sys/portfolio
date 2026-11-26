@@ -1,0 +1,340 @@
+body.astra-showcase .astra-main {
+  --astra-gold: #d9be88;
+  --astra-title: #f2efe8;
+  --astra-copy: #dbd9d3;
+  --astra-note: #aaa69f;
+  --astra-border: #3c362b;
+  --astra-panel: #1b1916;
+  font-family: var(--sans);
+  color: var(--astra-copy);
+}
+
+.astra-showcase .astra-section {
+  display: grid;
+  gap: clamp(1.125rem, 2.3vw, 1.875rem);
+  padding: clamp(2rem, 4.5vw, 4rem) 0;
+  border-top: 1px solid var(--astra-border);
+}
+
+.astra-showcase .astra-hero {
+  gap: clamp(0.65rem, 1.4vw, 1.25rem);
+  border-top: 0;
+  padding-top: 0;
+}
+
+.astra-showcase .astra-heading {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  align-items: baseline;
+  gap: 0.875rem;
+}
+
+.astra-showcase .astra-number {
+  font: 400 0.8125rem/1.5 var(--mono);
+  color: var(--astra-gold);
+}
+
+body.astra-showcase .astra-main .astra-heading h1 {
+  font: 700 clamp(2.15rem, 4.2vw, 3.75rem)/1.12 var(--sans);
+  color: var(--astra-title);
+}
+
+.astra-showcase #project-title span {
+  display: inline-block;
+  margin-inline-start: 0.25em;
+  font-size: 0.61em;
+  letter-spacing: 0.025em;
+}
+
+body.astra-showcase .astra-main .astra-heading h2 {
+  font: 700 clamp(1.3rem, 2.5vw, 2rem)/1.36 var(--sans);
+  color: var(--astra-gold);
+}
+
+body.astra-showcase .astra-main .astra-subhead {
+  max-width: 61rem;
+  color: var(--astra-title);
+  font-size: clamp(1.03rem, 1.65vw, 1.25rem);
+  line-height: 1.6;
+}
+
+.astra-showcase .astra-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.55rem 1.2rem;
+  padding-block: 0.75rem;
+  border-block: 1px solid var(--astra-border);
+  font: 400 0.8125rem/1.6 var(--mono);
+  color: var(--astra-note);
+}
+
+.astra-showcase .astra-info > :nth-child(2),
+.astra-showcase .astra-release {
+  flex-shrink: 0;
+}
+
+.astra-showcase .astra-release {
+  display: inline-block;
+  padding: 0.38rem 0.72rem;
+  color: var(--astra-gold);
+  border: 1px solid var(--astra-border);
+}
+
+.astra-showcase .astra-release:hover {
+  background: var(--astra-gold);
+  color: #141414;
+}
+
+.astra-showcase .astra-prose {
+  max-width: 54rem;
+}
+
+.astra-showcase .astra-figure {
+  min-width: 0;
+}
+
+.astra-showcase .astra-figure > a {
+  display: block;
+}
+
+.astra-showcase .astra-figure img {
+  max-width: 100%;
+  max-height: min(73svh, 50rem);
+  margin-inline: auto;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.astra-showcase .astra-hero-art img {
+  max-height: min(60svh, 37rem);
+}
+
+.astra-showcase .astra-figure figcaption {
+  margin-top: 0.6rem;
+  color: var(--astra-note);
+  font: 400 0.78125rem/1.55 var(--mono);
+}
+
+.astra-showcase :is(.astra-loop, .astra-route-figure) ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.astra-showcase .astra-loop {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.astra-showcase .astra-loop figcaption {
+  margin-top: 0;
+  color: var(--astra-gold);
+}
+
+.astra-showcase .astra-loop ol {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.astra-showcase .astra-loop li {
+  position: relative;
+  padding: 0.65rem 0.4rem;
+  border: 1px solid var(--astra-border);
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.astra-showcase .astra-loop li:not(:last-child)::after {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 0.9rem;
+  color: var(--astra-gold);
+  content: "→";
+  transform: translateY(-50%);
+}
+
+.astra-showcase .astra-study {
+  display: grid;
+  gap: 1.125rem;
+}
+
+.astra-showcase .astra-study + .astra-study {
+  margin-top: 0.7rem;
+}
+
+body.astra-showcase .astra-main .astra-study h3 {
+  font: 700 1.125rem/1.5 var(--sans);
+  color: var(--astra-title);
+}
+
+.astra-showcase .astra-cards {
+  display: grid;
+  gap: var(--a-gap);
+}
+
+.astra-showcase .astra-routes {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.astra-showcase .astra-repairs {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.astra-showcase .astra-card {
+  padding: clamp(0.875rem, 1.6vw, 1.375rem);
+  border-top: 1px solid var(--astra-gold);
+  background: var(--astra-panel);
+}
+
+body.astra-showcase .astra-main .astra-card h4 {
+  margin-bottom: 0.45rem;
+  color: var(--astra-gold);
+  font: 700 1rem/1.45 var(--sans);
+}
+
+.astra-showcase .astra-card h4 span {
+  display: block;
+  margin-top: 0.32rem;
+  color: var(--astra-note);
+  font: 400 0.8125rem/1.45 var(--mono);
+}
+
+.astra-showcase .astra-route-figure {
+  padding: 1.1rem clamp(0.65rem, 2.25vw, 1.85rem);
+  border-block: 1px solid var(--astra-border);
+}
+
+.astra-showcase .astra-route-start,
+.astra-showcase .astra-route-end {
+  position: relative;
+  width: fit-content;
+  margin-inline: auto;
+  padding: 0.3rem 0.7rem;
+  color: var(--astra-gold);
+  border: 1px solid var(--astra-border);
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.astra-showcase .astra-route-start::after,
+.astra-showcase .astra-route-end::before {
+  position: absolute;
+  inset-inline-start: 50%;
+  width: 1px;
+  height: 0.6rem;
+  background: var(--astra-border);
+  content: "";
+}
+
+.astra-showcase .astra-route-start::after {
+  top: 100%;
+}
+
+.astra-showcase .astra-route-end::before {
+  bottom: 100%;
+}
+
+.astra-showcase .astra-route-branches {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--a-gap);
+  margin-block: 0.6rem;
+}
+
+.astra-showcase .astra-route-branches ol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.3rem 0.45rem;
+  padding-block: 0.6rem;
+  border-block: 1px solid var(--astra-border);
+  font-size: 0.85rem;
+}
+
+.astra-showcase .astra-route-branches li:not(:last-child)::after {
+  margin-inline-start: 0.45rem;
+  color: var(--astra-gold);
+  content: "→";
+}
+
+.astra-showcase .astra-ending-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  text-align: start;
+}
+
+.astra-showcase .astra-ending-table :is(th, td) {
+  padding: 0.7rem 0.6rem 0.7rem 0;
+  border-bottom: 1px solid var(--astra-border);
+  vertical-align: top;
+  text-align: start;
+  font-size: 0.9rem;
+  overflow-wrap: anywhere;
+}
+
+.astra-showcase .astra-ending-table thead th {
+  color: var(--astra-gold);
+  font-weight: 700;
+}
+
+.astra-showcase .astra-ending-table th:first-child {
+  width: 22%;
+}
+
+.astra-showcase .astra-ending-table tbody th {
+  color: var(--astra-note);
+  font-weight: 400;
+}
+
+@media (max-width: 1050px) {
+  .astra-showcase .astra-info {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 767px) {
+  .astra-showcase .astra-heading {
+    grid-template-columns: 1.4rem minmax(0, 1fr);
+    gap: 0.5rem;
+  }
+
+  .astra-showcase .astra-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .astra-showcase .astra-route-branches ol {
+    flex-direction: column;
+    gap: 0.3rem;
+    text-align: center;
+  }
+
+  .astra-showcase .astra-route-branches li:not(:last-child)::after {
+    display: block;
+    margin: 0;
+    content: "↓";
+  }
+
+  .astra-showcase .astra-loop ol {
+    gap: 0.52rem;
+  }
+
+  .astra-showcase .astra-loop li {
+    padding-inline: 0.1rem;
+    font-size: 0.77rem;
+  }
+
+  .astra-showcase .astra-loop li:not(:last-child)::after {
+    width: 0.52rem;
+  }
+
+  .astra-showcase .astra-figure img {
+    max-height: 66svh;
+  }
+}
