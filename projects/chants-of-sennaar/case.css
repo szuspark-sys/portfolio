@@ -1,0 +1,41 @@
+.chants-page .chants-article {
+  width: 100%;
+  max-width: 700px;
+  margin-inline: auto;
+  padding-block: clamp(1.5rem, 3.5vw, 3.5rem) clamp(2.5rem, 5vw, 5rem);
+  color: var(--fg);
+  font: 400 clamp(1rem, 1.2vw, 1.0625rem)/1.85 var(--sans);
+  overflow-wrap: anywhere;
+}
+
+.chants-page .chants-article h1 {
+  margin-bottom: clamp(1.45rem, 3vw, 2.6rem);
+  font: 600 clamp(1.55rem, 2.7vw, 2.25rem)/1.38 var(--sans);
+}
+
+.chants-page .chants-prose p + p {
+  margin-top: 1.08em;
+}
+
+.chants-page .chants-prose .chants-section-start {
+  margin-top: 1.85em;
+}
+
+.chants-page .chants-quote {
+  background-color: #282828;
+  color: #f5f5f3;
+  padding-block: 0.1em;
+}
+
+.chants-page .chants-return {
+  margin-top: clamp(2.25rem, 4vw, 3.25rem);
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  font: 400 0.875rem/1.65 var(--mono);
+}
+
+.chants-page .chants-return a {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+}
