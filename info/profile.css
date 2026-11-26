@@ -1,0 +1,152 @@
+.info-page .profile {
+  --profile-note: #b7b7b4;
+  --profile-column-gap: clamp(1.25rem, 3vw, 3.25rem);
+  --profile-section-space: clamp(1.75rem, 3.9vw, 3.5rem);
+  padding-top: clamp(1.2rem, 3.1vw, 2.75rem);
+  color: var(--fg);
+  font: 400 1rem/1.75 var(--sans);
+  overflow-wrap: anywhere;
+}
+
+.profile .profile-about {
+  padding-bottom: var(--profile-section-space);
+}
+
+.profile h1 {
+  font: 600 clamp(1.7rem, 3.3vw, 2.8rem)/1.25 var(--sans);
+}
+
+.profile h1 [aria-hidden] {
+  color: var(--profile-note);
+  font-weight: 400;
+}
+
+.profile h1 [lang="en"] {
+  display: inline-block;
+  font-size: 0.82em;
+}
+
+.profile .profile-position {
+  margin-top: 0.65rem;
+  font-size: 0.9375rem;
+}
+
+.profile .profile-intro {
+  max-width: 48rem;
+  margin-top: clamp(1.25rem, 2.4vw, 2rem);
+}
+
+.profile .profile-english {
+  color: var(--profile-note);
+  font-size: 0.9375rem;
+  line-height: 1.65;
+}
+
+.profile .profile-section {
+  display: grid;
+  grid-template-columns: minmax(10rem, 1fr) minmax(0, 3fr);
+  align-items: start;
+  gap: var(--profile-column-gap);
+  padding-block: var(--profile-section-space);
+  border-top: 1px solid var(--line);
+}
+
+.profile h2 {
+  font: 600 1rem/1.5 var(--mono);
+}
+
+.profile h2 span {
+  display: block;
+  margin-top: 0.28rem;
+  color: var(--profile-note);
+  font-size: 0.8125rem;
+  font-weight: 400;
+}
+
+.profile h3 {
+  font: 600 1rem/1.55 var(--sans);
+}
+
+.profile h3 + p {
+  margin-top: 0.45rem;
+}
+
+.profile .profile-practices {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1.15rem, 2.5vw, 2.25rem) var(--profile-column-gap);
+}
+
+.profile .profile-timeline {
+  padding: 0;
+  list-style: none;
+}
+
+.profile .profile-timeline li,
+.profile .profile-details > div {
+  display: grid;
+  grid-template-columns: minmax(8.4rem, 1fr) minmax(0, 4fr);
+  align-items: start;
+  gap: 0.4rem 1.4rem;
+}
+
+.profile .profile-timeline li + li {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.profile .profile-period,
+.profile .profile-details dt {
+  color: var(--profile-note);
+  font: 400 0.8125rem/1.7 var(--mono);
+}
+
+.profile .profile-period {
+  padding-top: 0.18rem;
+  white-space: nowrap;
+}
+
+.profile .profile-details > div + div {
+  margin-top: 0.65rem;
+}
+
+.profile .profile-details dt {
+  padding-top: 0.18rem;
+}
+
+.profile .profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 1.25rem;
+}
+
+.profile .profile-details a {
+  text-decoration: underline;
+  text-decoration-color: #777;
+  text-underline-offset: 0.25em;
+}
+
+.profile .profile-details a:hover,
+.profile .profile-details a:focus-visible {
+  text-decoration-color: currentColor;
+}
+
+@media (max-width: 767px) {
+  .profile .profile-section {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .profile .profile-practices,
+  .profile .profile-timeline li,
+  .profile .profile-details > div {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .profile .profile-details > div + div {
+    margin-top: 0.85rem;
+  }
+}
