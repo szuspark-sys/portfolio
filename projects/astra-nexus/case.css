@@ -90,6 +90,14 @@ body.astra-showcase .astra-main .astra-subhead {
   max-width: 54rem;
 }
 
+.astra-showcase .astra-synopsis {
+  margin-top: 0.55rem;
+}
+
+body.astra-showcase .astra-main .astra-synopsis p + p {
+  margin-top: 0.2em;
+}
+
 .astra-showcase .astra-figure {
   min-width: 0;
 }
