@@ -5,6 +5,9 @@ body.astra-showcase .astra-main {
   --astra-note: #aaa69f;
   --astra-border: #3c362b;
   --astra-panel: #1b1916;
+  --astra-diagram-ink: #f5f0e6;
+  --astra-diagram-line: #a59675;
+  --astra-diagram-accent: #f3d18f;
   font-family: var(--sans);
   color: var(--astra-copy);
 }
@@ -129,6 +132,7 @@ body.astra-showcase .astra-main .astra-synopsis p + p {
   list-style: none;
   margin: 0;
   padding: 0;
+  color: var(--astra-diagram-ink);
 }
 
 .astra-showcase .astra-loop {
@@ -138,7 +142,10 @@ body.astra-showcase .astra-main .astra-synopsis p + p {
 
 .astra-showcase .astra-loop figcaption {
   margin-top: 0;
-  color: var(--astra-gold);
+}
+
+.astra-showcase :is(.astra-loop, .astra-route-figure) figcaption {
+  color: var(--astra-diagram-ink);
 }
 
 .astra-showcase .astra-loop ol {
@@ -150,7 +157,7 @@ body.astra-showcase .astra-main .astra-synopsis p + p {
 .astra-showcase .astra-loop li {
   position: relative;
   padding: 0.65rem 0.4rem;
-  border: 1px solid var(--astra-border);
+  border: 1px solid var(--astra-diagram-line);
   text-align: center;
   font-size: 0.9rem;
 }
@@ -160,7 +167,7 @@ body.astra-showcase .astra-main .astra-synopsis p + p {
   top: 50%;
   left: 100%;
   width: 0.9rem;
-  color: var(--astra-gold);
+  color: var(--astra-diagram-accent);
   content: "→";
   transform: translateY(-50%);
 }
@@ -213,7 +220,7 @@ body.astra-showcase .astra-main .astra-card h4 {
 
 .astra-showcase .astra-route-figure {
   padding: 1.1rem clamp(0.65rem, 2.25vw, 1.85rem);
-  border-block: 1px solid var(--astra-border);
+  border-block: 1px solid var(--astra-diagram-line);
 }
 
 .astra-showcase .astra-route-start,
@@ -222,8 +229,8 @@ body.astra-showcase .astra-main .astra-card h4 {
   width: fit-content;
   margin-inline: auto;
   padding: 0.3rem 0.7rem;
-  color: var(--astra-gold);
-  border: 1px solid var(--astra-border);
+  color: var(--astra-diagram-accent);
+  border: 1px solid var(--astra-diagram-line);
   font-size: 0.875rem;
   text-align: center;
 }
@@ -234,7 +241,7 @@ body.astra-showcase .astra-main .astra-card h4 {
   inset-inline-start: 50%;
   width: 1px;
   height: 0.6rem;
-  background: var(--astra-border);
+  background: var(--astra-diagram-line);
   content: "";
 }
 
@@ -260,13 +267,13 @@ body.astra-showcase .astra-main .astra-card h4 {
   flex-wrap: wrap;
   gap: 0.3rem 0.45rem;
   padding-block: 0.6rem;
-  border-block: 1px solid var(--astra-border);
+  border-block: 1px solid var(--astra-diagram-line);
   font-size: 0.85rem;
 }
 
 .astra-showcase .astra-route-branches li:not(:last-child)::after {
   margin-inline-start: 0.45rem;
-  color: var(--astra-gold);
+  color: var(--astra-diagram-accent);
   content: "→";
 }
 
