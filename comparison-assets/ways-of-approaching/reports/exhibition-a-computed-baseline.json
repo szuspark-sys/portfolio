@@ -1,0 +1,37 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "computed_elements": 107,
+      "all_actual_styles_and_geometry_identical": true
+    },
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "computed_elements": 107,
+      "all_actual_styles_and_geometry_identical": true
+    },
+    {
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "computed_elements": 107,
+      "all_actual_styles_and_geometry_identical": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "computed_elements": 107,
+      "all_actual_styles_and_geometry_identical": true
+    }
+  ]
+}

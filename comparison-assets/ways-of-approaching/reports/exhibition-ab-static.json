@@ -1,0 +1,17 @@
+{
+  "pass": true,
+  "project_id": "ways-of-approaching",
+  "checked_html": "dist/compare/ways-of-approaching/b/index.html",
+  "manifest": "source/comparisons/ways-of-approaching/b.layout.json",
+  "a_source_commit": "c711877d4b265c780d67f2c763b2e68d67be7973",
+  "media_count": 20,
+  "content_text_sequence_equal": true,
+  "media_order_equal": true,
+  "a_work_html_unchanged": true,
+  "a_dependency_hashes_preserved": true,
+  "local_references_checked": 109,
+  "unrelated_changes": [],
+  "handoff_css_byte_identical": true,
+  "browser_visual_qa": false,
+  "errors": []
+}

@@ -1,0 +1,85 @@
+/* Order /project/aidkit grid, measured at desktop and mobile on 2026-11-24.
+   Exact column edges and gutters; local typefaces and author-owned media only. */
+body.portfolio-curated_exhibition{
+  --exhibit-margin:7.8vw;
+  --exhibit-gap:1.875vw;
+  --exhibit-rhythm:clamp(5rem,10.4167vw,9.375rem);
+}
+body.portfolio-curated_exhibition>.site-header{
+  width:calc(100% - 2*var(--exhibit-margin));
+  height:12rem;padding:5.25rem 0 0;margin-inline:auto;border:0;
+}
+body.portfolio-curated_exhibition .portfolio-main{
+  width:calc(100% - 2*var(--exhibit-margin));max-width:none;
+  padding-top:6rem;margin-inline:auto;
+}
+body.portfolio-curated_exhibition .portfolio-content{
+  display:block;max-width:none;width:100%;margin:0;padding-bottom:var(--exhibit-rhythm);
+}
+.order-exhibition{font:400 1rem/1.65 var(--mono);letter-spacing:0}
+.order-exhibition .exhibit-grid{
+  display:grid;grid-template-columns:repeat(12,minmax(0,1fr));
+  column-gap:var(--exhibit-gap);align-items:start;
+}
+.order-exhibition .exhibit-intro{margin-top:2.75rem}
+.order-exhibition .exhibit-title{
+  grid-column:1/4;font:inherit;margin:0;overflow-wrap:normal;
+}
+.order-exhibition .exhibit-roles{grid-column:4/7}
+.order-exhibition .exhibit-lead{grid-column:7/9;margin:0}
+.order-exhibition .exhibit-facts{grid-column:10/12}
+.order-exhibition .exhibit-roles,.order-exhibition .exhibit-facts{font-size:.875rem;line-height:1.7}
+.order-exhibition .exhibit-roles p{margin:0 0 1.25rem}
+.order-exhibition ul{padding:0;margin:0;list-style:none}
+.order-exhibition li{margin:0 0 .5rem}
+.order-exhibition .exhibit-row{margin-top:var(--exhibit-rhythm);row-gap:2rem}
+.order-exhibition .exhibit-copy{grid-column:1/4;min-width:0}
+.order-exhibition h2{font:inherit;margin:0 0 1.5rem}
+.order-exhibition .exhibit-note{margin:0;font:inherit}
+.order-exhibition .exhibit-figure{
+  grid-column:var(--column)/span var(--span);min-width:0;margin:0;
+  --image-ceiling:max(1px,calc(100svh - 5rem - var(--caption-reserve,0px)));
+}
+.order-exhibition .exhibit-image-link{
+  display:flex;align-items:flex-start;justify-content:flex-start;
+  width:100%;padding:0;margin:0;background:transparent;border:0;
+  min-height:0;outline:0;aspect-ratio:auto;
+}
+.order-exhibition .exhibit-image-link:focus-visible{outline:1px solid var(--fg);outline-offset:5px}
+.order-exhibition .exhibit-figure img{
+  display:block;width:auto;height:auto;min-width:0;max-width:100%;
+  max-height:var(--image-ceiling);object-fit:contain;object-position:left top;
+}
+.order-exhibition .exhibit-cover{--image-ceiling:max(1px,calc(100svh - 20rem))}
+.order-exhibition .exhibit-cover .exhibit-image-link{justify-content:center}
+.order-exhibition .exhibit-figure figcaption{
+  margin:1.5rem 0 0;padding:0;max-width:22rem;
+  font:400 .875rem/1.65 var(--mono);color:#b7b7b4;
+}
+body.portfolio-curated_exhibition .site-footer{border-top:0;padding-top:0}
+@media(min-width:768px) and (max-width:1279px){
+  body.portfolio-curated_exhibition{--exhibit-gap:3.125vw}
+  body.portfolio-curated_exhibition>.site-header{height:9rem;padding-top:3rem}
+  body.portfolio-curated_exhibition .portfolio-main{padding-top:4rem}
+  .order-exhibition .exhibit-cover{--image-ceiling:max(1px,calc(100svh - 15rem))}
+  .order-exhibition .exhibit-title{grid-column:1/7}
+  .order-exhibition .exhibit-roles{grid-column:7/13}
+  .order-exhibition .exhibit-lead{grid-column:1/7;margin-top:2rem}
+  .order-exhibition .exhibit-facts{grid-column:7/13;margin-top:2rem}
+}
+@media(max-width:767px){
+  body.portfolio-curated_exhibition{--exhibit-margin:6.25vw;--exhibit-gap:6.25vw;--exhibit-rhythm:5rem}
+  body.portfolio-curated_exhibition>.site-header{height:6rem;padding-top:1.875rem}
+  body.portfolio-curated_exhibition .portfolio-main{padding-top:3rem}
+  .order-exhibition .exhibit-cover{--image-ceiling:max(1px,calc(100svh - 11rem))}
+  .order-exhibition .exhibit-intro{row-gap:2rem;margin-top:2rem}
+  .order-exhibition .exhibit-title{grid-column:1/7}
+  .order-exhibition .exhibit-roles{grid-column:7/13}
+  .order-exhibition .exhibit-lead{grid-column:1/7}
+  .order-exhibition .exhibit-facts{grid-column:7/13}
+  .order-exhibition .exhibit-row{row-gap:2rem}
+  .order-exhibition .exhibit-copy,.order-exhibition .exhibit-figure{grid-column:1/-1}
+  .order-exhibition .exhibit-copy{max-width:26rem}
+  .order-exhibition .exhibit-row--posters .exhibit-figure{grid-column:span 6}
+  .order-exhibition .exhibit-figure figcaption{margin-top:1.25rem;max-width:24rem}
+}

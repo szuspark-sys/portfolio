@@ -1,0 +1,269 @@
+/* Astra Nexus hierarchy, on the site's A grid. */
+body.astra-case {
+  --astra-title: #f2efe8;
+  --astra-text: #dbd9d3;
+  --astra-meta: #a9a69f;
+  --astra-gold: #d9be88;
+  --astra-line: #35332f;
+  --astra-chapter-space: clamp(3rem, 5vw, 4.75rem);
+  --astra-copy-width: 40em;
+}
+
+body.astra-case .a-main {
+  font-family: var(--sans);
+  color: var(--astra-text);
+  line-height: 1.8;
+}
+
+body.astra-case .a-main p { line-height: 1.8; }
+body.astra-case .a-main p + p { margin-top: .9em; }
+body.astra-case .a-main .a-chapter {
+  row-gap: clamp(1.25rem, 2vw, 1.875rem);
+  margin-bottom: var(--astra-chapter-space);
+}
+
+/* Title, introduction and project facts share the opening grid. */
+body.astra-case .hero .hero-grid {
+  grid-template-rows: max-content max-content;
+  row-gap: 1.375rem;
+}
+body.astra-case .a-main .hero-grid .hero-copy { grid-row: 1; }
+body.astra-case .a-main .hero-grid .hero-cover {
+  grid-column: 8 / 13;
+  grid-row: 1 / 3;
+  justify-self: center;
+  width: fit-content;
+  max-width: 100%;
+}
+body.astra-case .a-main .hero-cover img { max-height: min(49svh, 31rem); }
+body.astra-case .a-main .hero-copy h1 {
+  color: var(--astra-title);
+  font: 700 clamp(2.875rem, 5.4vw, 4.75rem)/1.03 var(--sans);
+  letter-spacing: .035em;
+}
+body.astra-case .a-main .project-english {
+  margin-top: .65rem;
+  color: var(--astra-gold);
+  font: 400 .875rem/1.55 var(--mono);
+  letter-spacing: .14em;
+}
+body.astra-case .a-main .project-intro {
+  max-width: 32em;
+  margin-top: 1.25rem;
+  font: 400 clamp(1.0625rem, 1.3vw, 1.1875rem)/1.7 var(--sans);
+}
+body.astra-case .a-main .project-tags { margin-top: 1rem; color: var(--astra-meta); }
+body.astra-case .a-main .project-link {
+  margin-top: .875rem;
+  padding-bottom: .15rem;
+  color: var(--astra-title);
+  text-decoration: underline;
+  text-decoration-color: var(--astra-gold);
+  text-underline-offset: .24em;
+}
+body.astra-case .a-main .record-line {
+  color: var(--astra-meta);
+  font-size: .75rem;
+  letter-spacing: .015em;
+}
+body.astra-case .a-main .record-line > span:first-child { color: var(--astra-gold); }
+body.astra-case .a-main .hero-grid .project-meta {
+  grid-row: 2;
+  margin: 0;
+  border-top: 1px solid var(--astra-line);
+  padding-top: .95rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .75rem 1.25rem;
+  font: 400 .875rem/1.6 var(--sans);
+}
+body.astra-case .a-main .project-meta > div { display: block; }
+body.astra-case .a-main .project-meta dt {
+  margin-bottom: .2rem;
+  color: var(--astra-meta);
+  font-size: .75rem;
+}
+body.astra-case .a-main .project-meta dd { overflow-wrap: anywhere; }
+body.astra-case .a-main .role-record {
+  margin-top: .25rem;
+  padding-block: 1.5rem .25rem;
+  border-top: 1px solid var(--astra-line);
+}
+body.astra-case .a-main .role-record > h2 {
+  color: var(--astra-title);
+  font: 600 1.375rem/1.4 var(--sans);
+}
+body.astra-case .a-main .role-list > div {
+  grid-template-columns: 7em minmax(0, 1fr);
+  gap: .45rem 1.125rem;
+}
+body.astra-case .a-main .role-list h3 {
+  color: var(--astra-gold);
+  font: 600 .9375rem/1.65 var(--sans);
+  padding-top: .1rem;
+}
+
+/* Chapter headings, subsections, body, captions and archival notes. */
+body.astra-case .a-main .chapter-heading {
+  align-items: baseline;
+  grid-template-columns: 1.75rem minmax(0, 1fr) auto;
+  gap: .45rem 1rem;
+  padding-top: clamp(1.125rem, 2.4vw, 2rem);
+  border-top: 1px solid var(--astra-line);
+}
+body.astra-case .a-main .chapter-heading h2 {
+  color: var(--astra-gold);
+  font: 700 clamp(1.375rem, 2.3vw, 2rem)/1.28 var(--sans);
+  letter-spacing: 0;
+}
+body.astra-case .a-main .chapter-number { color: var(--astra-gold); font: .8125rem/1.5 var(--mono); }
+body.astra-case .a-main .chapter-en { display: block; color: var(--astra-gold); font: .75rem/1.5 var(--mono); }
+body.astra-case .a-main .a-chapter:not(.hero) h3 {
+  color: var(--astra-title);
+  font: 600 clamp(1.0625rem, 1.5vw, 1.1875rem)/1.45 var(--sans);
+  margin-bottom: .45rem;
+}
+body.astra-case .a-main .a-chapter:not(.hero) h4 { color: var(--astra-title); font: 600 1rem/1.5 var(--sans); }
+body.astra-case .a-main :is(.prose, .project-intro, .body-lead, .flow-intro, .finding-copy, .text-spread > p, .ending-prose, .route-records article > p, .dialogue-content) { max-width: var(--astra-copy-width); }
+body.astra-case .a-main .project-intro { max-width: 32em; }
+body.astra-case .a-main .text-spread { margin-top: .25rem; }
+body.astra-case .a-main .text-spread > h3 { margin-bottom: 0; }
+body.astra-case .a-main .side-note {
+  border-inline-start: 1px solid var(--astra-line);
+  padding-inline-start: .875rem;
+  font-size: .9375rem;
+}
+body.astra-case .a-main :is(.small-label, .d-speaker, .scene-note, .col-kicker) {
+  color: var(--astra-meta);
+  font: 400 .78125rem/1.6 var(--mono);
+}
+body.astra-case .a-main .a-figure figcaption {
+  gap: .15rem;
+  margin-top: .55rem;
+  color: var(--astra-meta);
+  font: 400 .78125rem/1.55 var(--sans);
+}
+body.astra-case .a-main .figure-title { color: var(--astra-text); font-weight: 600; }
+body.astra-case .a-main :is(.caption-text, .archive-note, .shared-result) {
+  max-width: var(--astra-copy-width);
+  margin-top: 0;
+  color: var(--astra-meta);
+  font: 400 .8125rem/1.65 var(--sans);
+}
+body.astra-case .a-main .shared-result { color: var(--astra-text); }
+body.astra-case .a-main :is(.route-records, .repair-records, .relic-sequence, .dialogue-records, .archive-comparison, .ending-table-wrap) { margin-top: .25rem; }
+body.astra-case .a-main :is(.route-records > article, .repair-row, .dialogue-row, .archive-col) {
+  border-color: var(--astra-line);
+  padding-block: 1rem;
+}
+body.astra-case .a-main .repair-row { grid-template-columns: 5rem minmax(7rem, 1fr) minmax(0, 2.25fr); }
+body.astra-case .a-main .d-speaker { color: var(--astra-gold); }
+body.astra-case .a-main .d-line + .d-line { margin-top: .7rem; }
+body.astra-case .a-main .ending-table-wrap .compare-table { min-width: 0; }
+body.astra-case .a-main .compare-table :is(th, td) { border-color: var(--astra-line); }
+body.astra-case .a-main .compare-table thead th { color: var(--astra-gold); }
+
+/* Existing optional material has a consistent, visible disclosure affordance. */
+body.astra-case .a-main details.supplement {
+  margin-top: .5rem;
+  border-color: var(--astra-line);
+  color: var(--astra-text);
+}
+body.astra-case .a-main details.supplement > summary {
+  min-height: 44px;
+  padding-block: .75rem;
+  font: 600 .9375rem/1.55 var(--sans);
+}
+body.astra-case .a-main details.supplement > summary::before { color: var(--astra-gold); }
+body.astra-case .a-main details.supplement > summary > span { color: var(--astra-meta); font-size: .75rem; }
+body.astra-case .a-main details.supplement > summary:hover { color: var(--astra-gold); }
+
+body.astra-case .a-directory { margin-bottom: var(--astra-chapter-space); }
+body.astra-case .a-directory .sidebar-project { color: var(--astra-title); }
+body.astra-case .a-directory .toc-link[aria-current="true"] { color: var(--astra-gold); }
+
+@media (max-width: 767px) {
+  body.astra-case .a-main .a-chapter { row-gap: 1.125rem; }
+  body.astra-case .a-main .record-line { gap: .5rem; }
+  body.astra-case .a-main .hero-grid { grid-template-rows: auto; }
+  body.astra-case .a-main .hero-grid :is(.hero-copy, .hero-cover, .project-meta) { grid-column: 1 / -1; grid-row: auto; }
+  body.astra-case .a-main .hero-grid .hero-cover { justify-self: start; }
+  body.astra-case .a-main .hero-cover img { max-height: min(42svh, 21rem); }
+  body.astra-case .a-main .hero-copy h1 { line-height: 1.08; }
+  body.astra-case .a-main .project-intro { margin-top: 1rem; }
+  body.astra-case .a-main .chapter-heading { grid-template-columns: 1.625rem minmax(0, 1fr); column-gap: .625rem; }
+  body.astra-case .a-main .chapter-en { grid-column: 2; text-align: left; }
+  body.astra-case .a-main .role-list > div { grid-template-columns: minmax(0, 1fr); gap: .25rem; }
+  body.astra-case .a-main .text-spread h3 { margin-bottom: 0; }
+  body.astra-case .a-main .repair-row { grid-template-columns: 3.625rem minmax(0, 1fr); }
+  body.astra-case .a-main .compare-table :is(td, th) { padding: .625rem .4rem .625rem 0; font-size: .8125rem; }
+  body.astra-case .a-main .compare-table :is(td, th):last-child { padding-right: 0; }
+}
+/* Reading panels use the site's palette and let the text and evidence sit together. */
+body.astra-folio .astra-folio-grid {
+  display:grid;grid-template-columns:10.5rem minmax(0,1fr);gap:clamp(1.4rem,2.8vw,2.6rem);
+}
+body.astra-folio .astra-folio-index {position:sticky;top:1.5rem;align-self:start;min-width:0}
+body.astra-folio .astra-folio-index .astra-folio-name {margin:.25rem 0 .75rem;color:var(--astra-gold);font-size:1.25rem;font-weight:600}
+body.astra-folio .astra-folio-category {font:.8125rem/1.5 var(--mono);color:var(--astra-meta)}
+body.astra-folio .astra-folio-index nav {display:grid;border-top:1px solid var(--astra-line)}
+body.astra-folio .astra-folio-index nav a {
+  padding:.55rem .35rem;border-bottom:1px solid var(--astra-line);font:.875rem/1.45 var(--mono);color:var(--astra-text);
+}
+body.astra-folio .astra-folio-index nav a[aria-current] {color:var(--astra-gold);text-decoration:underline;text-underline-offset:.27em}
+body.astra-folio .astra-folio-topics {min-width:0}
+body.astra-folio [data-astra-topic] {
+  display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);column-gap:clamp(1rem,2.3vw,2.25rem);
+  margin-bottom:2rem;border-top:1px solid var(--astra-line);
+}
+body.astra-folio [data-astra-topic][hidden] {display:none}
+body.astra-folio .astra-folio-topic-title {
+  grid-column:1/-1;color:var(--astra-gold);font:.875rem/1.5 var(--mono);padding:.55rem 0;border-bottom:1px solid var(--astra-line);
+}
+body.astra-folio :is(.astra-folio-reading,.astra-folio-evidence) {min-width:0;padding-top:1.15rem}
+body.astra-folio .astra-folio-evidence {border-inline-start:1px solid var(--astra-line);padding-inline-start:clamp(.85rem,1.6vw,1.4rem)}
+body.astra-folio .a-main :is(.astra-folio-evidence-heading,.astra-folio-evidence dt) {
+  color:var(--astra-gold);font:400 .8125rem/1.55 var(--mono);margin:0 0 .7rem;
+}
+body.astra-folio .a-main .astra-folio-reading :is(.a-chapter,.a-component,.hero-grid,.route-records,.relic-sequence) {display:block}
+body.astra-folio .a-main .astra-folio-reading .a-chapter {margin:0 0 1.25rem}
+body.astra-folio .a-main .astra-folio-reading .a-chapter > :is(div,p,details,dl) + :is(div,p,details,dl) {margin-block-start:.85rem}
+body.astra-folio .a-main .astra-folio-reading .record-line {margin-bottom:.65rem;justify-content:start}
+body.astra-folio .a-main .astra-folio-reading .hero-copy h1 {
+  font:650 clamp(2rem,3vw,2.9rem)/1.2 var(--sans);letter-spacing:.02em;
+}
+body.astra-folio .a-main .astra-folio-reading .hero-copy .project-intro {margin-top:.8rem;font-size:1.0625rem}
+body.astra-folio .a-main .astra-folio-reading .chapter-heading {
+  border:0;padding:0;margin:0 0 .85rem;display:flex;align-items:baseline;gap:.3rem .7rem;flex-wrap:wrap;
+}
+body.astra-folio .a-main .astra-folio-reading .chapter-heading h2 {font-size:clamp(1.3rem,1.9vw,1.625rem)}
+body.astra-folio .a-main .astra-folio-reading .a-chapter h3 {font-size:1rem;margin:0 0 .35rem}
+body.astra-folio .a-main .astra-folio-reading .a-chapter .path-list {margin-top:.4rem}
+body.astra-folio .a-main .astra-folio-reading .role-record {padding-top:.95rem}
+body.astra-folio .a-main .astra-folio-reading .archive-comparison {gap:.75rem}
+body.astra-folio .a-main .astra-folio-reading .archive-col {min-width:0;padding:0 0 .65rem}
+body.astra-folio .a-main .astra-folio-reading .field-table div {grid-template-columns:1fr;gap:.15rem}
+body.astra-folio .a-main .astra-reading-detail {border-top:1px solid var(--astra-line);padding:.55rem 0;margin-top:.8rem}
+body.astra-folio .a-main details summary {cursor:pointer;color:var(--astra-gold)}
+body.astra-folio .a-main .astra-reading-detail[open] > summary {margin-bottom:.75rem}
+body.astra-folio .a-main .astra-folio-evidence .project-meta {margin:0 0 1rem;display:block}
+body.astra-folio .a-main .astra-folio-evidence .project-meta > div {display:grid;grid-template-columns:5.5rem minmax(0,1fr);gap:.45rem;padding:.3rem 0}
+body.astra-folio .a-main .astra-folio-evidence .project-meta dt {margin:0}
+body.astra-folio .a-main .astra-folio-evidence :is(.a-figure,.state-guide,.astra-reader-figure) {margin:0 0 1rem;max-width:100%;width:100%}
+body.astra-folio .a-main .astra-folio-evidence :is(.image-link,img) {width:auto;max-width:100%;height:auto}
+body.astra-folio .a-main .astra-folio-evidence .hero-cover img {max-height:min(52svh,32rem)}
+body.astra-folio .astra-reader-figure .image-link {display:block;background:#f5f1e7}
+body.astra-folio .astra-reader-figure figcaption {font:.75rem/1.55 var(--mono);margin-top:.4rem;color:var(--astra-meta)}
+body.astra-folio .a-main .astra-folio-evidence .caption-text {font-size:.75rem;margin:.2rem 0 .5rem}
+body.astra-folio .astra-folio-file {display:block;width:fit-content;margin:.35rem 0;color:var(--astra-gold);font:.875rem/1.5 var(--mono);text-decoration:underline;text-underline-offset:.2em}
+body.astra-folio .astra-folio-evidence blockquote {margin:.85rem 0 0;border-left:1px solid var(--astra-line);padding:.15rem 0 .15rem .65rem;font-size:.875rem}
+body.astra-folio .astra-folio-evidence cite {display:block;color:var(--astra-meta);font:.75rem/1.5 var(--mono);margin-top:.3rem}
+@media(max-width:1000px) {
+  body.astra-folio .astra-folio-grid {grid-template-columns:8rem minmax(0,1fr);gap:1rem}
+}
+@media(max-width:767px) {
+  body.astra-folio .astra-folio-grid {display:block}
+  body.astra-folio .astra-folio-index {position:static;margin-bottom:1rem}
+  body.astra-folio .astra-folio-index nav {grid-template-columns:repeat(auto-fit,minmax(7.5rem,1fr));column-gap:.5rem}
+  body.astra-folio [data-astra-topic] {display:block}
+  body.astra-folio .astra-folio-evidence {border-inline-start:0;border-top:1px solid var(--astra-line);padding-inline-start:0;margin-top:.75rem}
+}

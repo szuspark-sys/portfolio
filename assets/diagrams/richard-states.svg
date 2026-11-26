@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="710" viewBox="0 0 960 710" role="img" aria-labelledby="title desc">
+<title id="title">理查德：四组状态对白</title>
+<desc id="desc">四行分别列出原文给定的来访状态与理查德对白节选。这是四个文本样例的对照，不额外规定条件优先级或强制拜访顺序。依据项目文字整理。</desc>
+<metadata>依据项目文字整理。编辑重排图，非原始游戏画面。</metadata>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#666666"/></marker></defs>
+<rect width="960" height="710" fill="#101011"/>
+<g font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif">
+<text x="32" y="44" font-size="24" font-weight="700" text-anchor="start" fill="#dddddd">理查德：四组状态对白</text>
+<text x="100" y="103" font-size="18" font-weight="500" text-anchor="start" fill="#D1F200">来访状态</text>
+<text x="400" y="103" font-size="18" font-weight="500" text-anchor="start" fill="#D1F200">理查德的回应 · 原文节选</text>
+<path d="M 32 121 L 928 121" fill="none" stroke="#666666" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter"/>
+<text x="32" y="158" font-size="20" font-weight="500" text-anchor="start" fill="#D1F200">01</text>
+<text x="100" y="158" font-size="22" font-weight="500" text-anchor="start" fill="#dddddd">外壳尚未修复</text>
+<text x="100" y="191" font-size="18" font-weight="400" text-anchor="start" fill="#dddddd">初次见面</text>
+<text x="400" y="158" font-size="20" font-weight="400" text-anchor="start" fill="#dddddd">“严重的高温烧蚀和表面损伤，</text>
+<text x="400" y="187" font-size="20" font-weight="400" text-anchor="start" fill="#dddddd">我现在什么也做不了。”</text>
+<path d="M 32 236 L 928 236" fill="none" stroke="#666666" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter"/>
+<text x="32" y="278" font-size="20" font-weight="500" text-anchor="start" fill="#D1F200">02</text>
+<text x="100" y="278" font-size="22" font-weight="500" text-anchor="start" fill="#dddddd">外壳已修复</text>
+<text x="100" y="311" font-size="18" font-weight="400" text-anchor="start" fill="#dddddd">硬件尚未修复</text>
+<text x="400" y="278" font-size="20" font-weight="400" text-anchor="start" fill="#dddddd">“等你把硬件修好了再说。”</text>
+<path d="M 32 356 L 928 356" fill="none" stroke="#666666" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter"/>
+<text x="32" y="398" font-size="20" font-weight="500" text-anchor="start" fill="#D1F200">03</text>
+<text x="100" y="398" font-size="22" font-weight="500" text-anchor="start" fill="#dddddd">硬件已修复</text>
+<text x="100" y="431" font-size="18" font-weight="400" text-anchor="start" fill="#dddddd">再次来访</text>
+<text x="400" y="398" font-size="20" font-weight="400" text-anchor="start" fill="#dddddd">“搬一把椅子过来。”</text>
+<text x="400" y="435" font-size="18" font-weight="400" text-anchor="start" fill="#dddddd">场景：理查德准备一同修复软件。</text>
+<path d="M 32 476 L 928 476" fill="none" stroke="#666666" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter"/>
+<text x="32" y="518" font-size="20" font-weight="500" text-anchor="start" fill="#D1F200">04</text>
+<text x="100" y="518" font-size="22" font-weight="500" text-anchor="start" fill="#dddddd">软件已修复</text>
+<text x="100" y="551" font-size="18" font-weight="400" text-anchor="start" fill="#dddddd">已选择继续调查</text>
+<text x="400" y="518" font-size="20" font-weight="400" text-anchor="start" fill="#dddddd">“先看原来保留的配置和留言。”</text>
+<text x="400" y="555" font-size="18" font-weight="400" text-anchor="start" fill="#dddddd">场景：此前他曾劝玩家停止调查。</text>
+<path d="M 32 596 L 928 596" fill="none" stroke="#666666" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter"/>
+<text x="32" y="637" font-size="18" font-weight="400" text-anchor="start" fill="#dddddd">玩家可跳过早期拜访；初次见面与再次来访开场不同。</text>
+<text x="32" y="686" font-size="18" font-weight="400" text-anchor="start" fill="#dddddd">依据项目文字整理</text>
+</g>
+</svg>

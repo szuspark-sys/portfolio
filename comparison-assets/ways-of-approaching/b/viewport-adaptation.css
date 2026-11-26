@@ -1,0 +1,14 @@
+/* Explicit author-requested adaptation; base aidkit-detail.css is unchanged.
+   Cell widths/padding remain contractual. Only the inner media width may shrink
+   proportionally to keep the complete image and its real caption in one screen. */
+body.xu-aidkit-page[data-project-id='ways-of-approaching'] .ak-figure{
+  --ak-fit-budget:max(1px,calc(100svh - 80px - var(--ak-caption-reserve,0px)));
+}
+body.xu-aidkit-page[data-project-id='ways-of-approaching'] .ak-figure[data-cover]{
+  --ak-fit-budget:max(1px,calc(100svh - var(--ak-top) - 32px));
+}
+body.xu-aidkit-page[data-project-id='ways-of-approaching'] .ak-fit-frame{
+  width:min(100%,calc(var(--ak-fit-budget) * var(--ak-media-ratio)));
+  max-width:100%;height:auto;
+}
+body.xu-aidkit-page[data-project-id='ways-of-approaching'] .image-viewer{color:#fff;background:#141414}

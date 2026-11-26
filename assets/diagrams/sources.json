@@ -1,0 +1,699 @@
+{
+  "attribution": "依据项目文字整理",
+  "nature": "新绘制的编辑信息图，不是游戏原始截图或原开发图。",
+  "primary_source": {
+    "path": "/workspace/scratch/840d981e9f30/upload/index.html",
+    "sha256": "93e77e661542ba091ec5cd4077206c5b1b1b16a66620668274be9f87f18a2b35"
+  },
+  "style": {
+    "background": "#101011",
+    "line": "#666666",
+    "text": "#dddddd",
+    "accent": "#D1F200",
+    "font_sizes_px": [
+      18,
+      20,
+      22,
+      24
+    ],
+    "font_family": "Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif"
+  },
+  "files": [
+    {
+      "file": "relationships.svg",
+      "width": 920,
+      "height": 630,
+      "title": "人物与仪器关系",
+      "description": "上层为历史定制关系，下层为当下调查动作。交付状态仍无法确认。依据项目文字整理。",
+      "visible_labels": [
+        {
+          "text": "人物与仪器关系",
+          "x": 32,
+          "baseline_y": 44,
+          "font_size": 24,
+          "font_weight": 700
+        },
+        {
+          "text": "历史关系",
+          "x": 32,
+          "baseline_y": 92,
+          "font_size": 18,
+          "font_weight": 500
+        },
+        {
+          "text": "图马斯",
+          "x": 150,
+          "baseline_y": 151,
+          "font_size": 24,
+          "font_weight": 700
+        },
+        {
+          "text": "定制申请人",
+          "x": 150,
+          "baseline_y": 183,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "K–3089–3–117",
+          "x": 460,
+          "baseline_y": 151,
+          "font_size": 22,
+          "font_weight": 500
+        },
+        {
+          "text": "定制仪器",
+          "x": 460,
+          "baseline_y": 183,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "欧普洛斯",
+          "x": 770,
+          "baseline_y": 151,
+          "font_size": 24,
+          "font_weight": 700
+        },
+        {
+          "text": "原定受赠人",
+          "x": 770,
+          "baseline_y": 183,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "定制申请",
+          "x": 302,
+          "baseline_y": 119,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "原定赠予",
+          "x": 618,
+          "baseline_y": 119,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "交付状态：无法确认",
+          "x": 460,
+          "baseline_y": 226,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "当下调查",
+          "x": 32,
+          "baseline_y": 297,
+          "font_size": 18,
+          "font_weight": 500
+        },
+        {
+          "text": "安德鲁斯基",
+          "x": 460,
+          "baseline_y": 347,
+          "font_size": 24,
+          "font_weight": 700
+        },
+        {
+          "text": "玩家扮演的空间站维修员",
+          "x": 460,
+          "baseline_y": 379,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "寻找与询问",
+          "x": 184,
+          "baseline_y": 463,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "维修／查证",
+          "x": 474,
+          "baseline_y": 463,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "查阅",
+          "x": 764,
+          "baseline_y": 463,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "图马斯",
+          "x": 170,
+          "baseline_y": 519,
+          "font_size": 22,
+          "font_weight": 500
+        },
+        {
+          "text": "事故幸存者",
+          "x": 170,
+          "baseline_y": 549,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "K–3089",
+          "x": 460,
+          "baseline_y": 519,
+          "font_size": 22,
+          "font_weight": 500
+        },
+        {
+          "text": "待修仪器",
+          "x": 460,
+          "baseline_y": 549,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "遗留记录",
+          "x": 750,
+          "baseline_y": 519,
+          "font_size": 22,
+          "font_weight": 500
+        },
+        {
+          "text": "欧普洛斯的经历",
+          "x": 750,
+          "baseline_y": 549,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "依据项目文字整理",
+          "x": 32,
+          "baseline_y": 604,
+          "font_size": 18,
+          "font_weight": 400
+        }
+      ],
+      "sha256": "7b7b8564de489fe3255d49807ecbfdb1c4971d78b8c5d0bea0d7d578157b815c",
+      "source_sections": [
+        "sec-2 故事与角色",
+        "sec-7 可搜索文件"
+      ],
+      "source_passages": [
+        "玩家是一名空间站维修员，接手了一件十七年前的定制仪器。仪器已经损坏，铭文上的姓名无法辨认。为了修复它，玩家需要寻找工程师和技术人员；随着铭文、硬件和系统逐步恢复，一场太阳风暴事故，以及围绕仪器受赠人的往事，也逐渐浮现。",
+        "定制申请账户：Tumas Teles；登记使用者：Opulos Cronus；交付状态：无法确认。"
+      ],
+      "additional_source": {
+        "path": "/workspace/sites/xu-fixed-grid-prototype/dist/assets/diagrams/sources.json",
+        "sha256": "e7944084db7b50aca892f9ae0270506160ec3a68d7dcb236cceb838a2a4c99d4",
+        "relationships": {
+          "历史": [
+            [
+              "图马斯",
+              "定制申请",
+              "K–3089"
+            ],
+            [
+              "K–3089",
+              "原定赠予",
+              "欧普洛斯"
+            ]
+          ],
+          "当前": [
+            [
+              "安德鲁斯基",
+              "维修／查证",
+              "K–3089"
+            ],
+            [
+              "安德鲁斯基",
+              "寻找与询问",
+              "图马斯"
+            ],
+            [
+              "安德鲁斯基",
+              "查阅遗留记录",
+              "欧普洛斯"
+            ]
+          ]
+        }
+      },
+      "editorial_reconstruction": "历史与当下上下分层；当下右节点使用遗留记录，避免将已故人物画成可直接会面的角色；保留交付状态无法确认。"
+    },
+    {
+      "file": "investigation-flow.svg",
+      "width": 920,
+      "height": 710,
+      "title": "维修推进与调查出口",
+      "description": "新手指引后接手K–3089，依次完成外壳、硬件和软件修复。修复完成后可结束任务或继续调查。依据项目文字整理。",
+      "visible_labels": [
+        {
+          "text": "维修推进与调查出口",
+          "x": 32,
+          "baseline_y": 44,
+          "font_size": 24,
+          "font_weight": 700
+        },
+        {
+          "text": "接手 K–3089",
+          "x": 150,
+          "baseline_y": 108,
+          "font_size": 22,
+          "font_weight": 500
+        },
+        {
+          "text": "新手指引结束后",
+          "x": 150,
+          "baseline_y": 138,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "每个阶段开放的信息",
+          "x": 360,
+          "baseline_y": 106,
+          "font_size": 18,
+          "font_weight": 500
+        },
+        {
+          "text": "外壳修复",
+          "x": 150,
+          "baseline_y": 214,
+          "font_size": 24,
+          "font_weight": 700
+        },
+        {
+          "text": "恢复姓名与完整编号",
+          "x": 360,
+          "baseline_y": 207,
+          "font_size": 22,
+          "font_weight": 500
+        },
+        {
+          "text": "用于继续查询",
+          "x": 360,
+          "baseline_y": 239,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "硬件修复",
+          "x": 150,
+          "baseline_y": 322,
+          "font_size": 24,
+          "font_weight": 700
+        },
+        {
+          "text": "恢复硬件运行",
+          "x": 360,
+          "baseline_y": 315,
+          "font_size": 22,
+          "font_weight": 500
+        },
+        {
+          "text": "获得软件修复前提",
+          "x": 360,
+          "baseline_y": 347,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "软件修复",
+          "x": 150,
+          "baseline_y": 430,
+          "font_size": 24,
+          "font_weight": 700
+        },
+        {
+          "text": "恢复文件读取",
+          "x": 360,
+          "baseline_y": 423,
+          "font_size": 22,
+          "font_weight": 500
+        },
+        {
+          "text": "取得旧配置与留言",
+          "x": 360,
+          "baseline_y": 455,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "维修完成",
+          "x": 150,
+          "baseline_y": 523,
+          "font_size": 22,
+          "font_weight": 700
+        },
+        {
+          "text": "结束任务",
+          "x": 150,
+          "baseline_y": 632,
+          "font_size": 24,
+          "font_weight": 700
+        },
+        {
+          "text": "继续调查",
+          "x": 616,
+          "baseline_y": 632,
+          "font_size": 24,
+          "font_weight": 700
+        },
+        {
+          "text": "审阅证据，追查十七年前的太阳风暴事故",
+          "x": 616,
+          "baseline_y": 662,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "依据项目文字整理",
+          "x": 32,
+          "baseline_y": 690,
+          "font_size": 18,
+          "font_weight": 400
+        }
+      ],
+      "sha256": "61002eae73cebf0ad9baec72aea95d0402da5a9b233676b0c750b2e344da5b58",
+      "source_sections": [
+        "sec-4 整体流程与信息投放",
+        "sec-6 三种维修形式与调查心态"
+      ],
+      "source_passages": [
+        "新手指引结束后，玩家接手 K-3089，并寻求不同专业人员的帮助，依次完成外壳、硬件与软件修复。每个阶段都会开放新的身份或设备信息，维修与调查由此并行推进。设备修复完成后，玩家可以结束任务，或继续审阅证据，追查十七年前的太阳风暴事故。",
+        "铭文无法辨认 → 依据处理反馈修复表面 → 恢复姓名与完整编号，用于继续查询。",
+        "模块断路无法启动 → 排查与连接线路 → 恢复硬件运行，获得软件修复前提。",
+        "本地文件无法读取 → 叠合、定位与指令操作 → 恢复文件读取，取得可供对照的旧配置与留言。"
+      ],
+      "editorial_reconstruction": "把维修推进作为纵向线，阶段解锁的信息放在右侧；在维修完成后绘制结束任务与继续调查两个出口。未增添新的关卡。"
+    },
+    {
+      "file": "two-paths.svg",
+      "width": 920,
+      "height": 600,
+      "title": "寻找佩内洛普：两条路线",
+      "description": "人际路线经组员转介或直接找办公室、花盆署名、询问安妮；工作记录路线经硬件组公告与当前作业区域。两条路线汇合到现场会面L211。依据项目文字整理。",
+      "visible_labels": [
+        {
+          "text": "寻找佩内洛普：两条路线",
+          "x": 32,
+          "baseline_y": 44,
+          "font_size": 24,
+          "font_weight": 700
+        },
+        {
+          "text": "需要硬件帮助",
+          "x": 460,
+          "baseline_y": 106,
+          "font_size": 24,
+          "font_weight": 700
+        },
+        {
+          "text": "人际路线",
+          "x": 260,
+          "baseline_y": 191,
+          "font_size": 18,
+          "font_weight": 500
+        },
+        {
+          "text": "工作记录路线",
+          "x": 660,
+          "baseline_y": 191,
+          "font_size": 18,
+          "font_weight": 500
+        },
+        {
+          "text": "组员转介或直接找办公室",
+          "x": 260,
+          "baseline_y": 237,
+          "font_size": 22,
+          "font_weight": 500
+        },
+        {
+          "text": "硬件组公告",
+          "x": 660,
+          "baseline_y": 237,
+          "font_size": 22,
+          "font_weight": 500
+        },
+        {
+          "text": "花盆署名",
+          "x": 260,
+          "baseline_y": 325,
+          "font_size": 22,
+          "font_weight": 500
+        },
+        {
+          "text": "询问安妮",
+          "x": 260,
+          "baseline_y": 413,
+          "font_size": 22,
+          "font_weight": 500
+        },
+        {
+          "text": "当前作业区域",
+          "x": 660,
+          "baseline_y": 371,
+          "font_size": 22,
+          "font_weight": 500
+        },
+        {
+          "text": "现场会面（L211）",
+          "x": 460,
+          "baseline_y": 539,
+          "font_size": 24,
+          "font_weight": 700
+        },
+        {
+          "text": "依据项目文字整理",
+          "x": 32,
+          "baseline_y": 576,
+          "font_size": 18,
+          "font_weight": 400
+        }
+      ],
+      "sha256": "e7ef626d2706e31cd00ee41e63b49c0776c4149f8aca07afdfa3bbd3378df200",
+      "source_sections": [
+        "sec-5 线索编排案例：寻找佩内洛普"
+      ],
+      "source_passages": [
+        "在硬件维修阶段，娜拉能处理接口，却不熟悉这台旧终端的整机电路，因此建议玩家找佩内洛普。玩家还需查明她当前的去向，才能获得帮助。",
+        "人际路线：组员转介或直接找办公室 → 花盆署名 → 询问安妮 → 现场会面（L211） 工作记录路线：硬件组公告 → 当前作业区域 → 现场会面（L211）"
+      ],
+      "editorial_reconstruction": "两条路线并列后汇合L211，保留人际路线起点的或关系；没有增加路线节点。"
+    },
+    {
+      "file": "richard-states.svg",
+      "width": 960,
+      "height": 710,
+      "title": "理查德：四组状态对白",
+      "description": "四行分别列出原文给定的来访状态与理查德对白节选。这是四个文本样例的对照，不额外规定条件优先级或强制拜访顺序。依据项目文字整理。",
+      "visible_labels": [
+        {
+          "text": "理查德：四组状态对白",
+          "x": 32,
+          "baseline_y": 44,
+          "font_size": 24,
+          "font_weight": 700
+        },
+        {
+          "text": "来访状态",
+          "x": 100,
+          "baseline_y": 103,
+          "font_size": 18,
+          "font_weight": 500
+        },
+        {
+          "text": "理查德的回应 · 原文节选",
+          "x": 400,
+          "baseline_y": 103,
+          "font_size": 18,
+          "font_weight": 500
+        },
+        {
+          "text": "01",
+          "x": 32,
+          "baseline_y": 158,
+          "font_size": 20,
+          "font_weight": 500
+        },
+        {
+          "text": "外壳尚未修复",
+          "x": 100,
+          "baseline_y": 158,
+          "font_size": 22,
+          "font_weight": 500
+        },
+        {
+          "text": "初次见面",
+          "x": 100,
+          "baseline_y": 191,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "“严重的高温烧蚀和表面损伤，",
+          "x": 400,
+          "baseline_y": 158,
+          "font_size": 20,
+          "font_weight": 400
+        },
+        {
+          "text": "我现在什么也做不了。”",
+          "x": 400,
+          "baseline_y": 187,
+          "font_size": 20,
+          "font_weight": 400
+        },
+        {
+          "text": "02",
+          "x": 32,
+          "baseline_y": 278,
+          "font_size": 20,
+          "font_weight": 500
+        },
+        {
+          "text": "外壳已修复",
+          "x": 100,
+          "baseline_y": 278,
+          "font_size": 22,
+          "font_weight": 500
+        },
+        {
+          "text": "硬件尚未修复",
+          "x": 100,
+          "baseline_y": 311,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "“等你把硬件修好了再说。”",
+          "x": 400,
+          "baseline_y": 278,
+          "font_size": 20,
+          "font_weight": 400
+        },
+        {
+          "text": "03",
+          "x": 32,
+          "baseline_y": 398,
+          "font_size": 20,
+          "font_weight": 500
+        },
+        {
+          "text": "硬件已修复",
+          "x": 100,
+          "baseline_y": 398,
+          "font_size": 22,
+          "font_weight": 500
+        },
+        {
+          "text": "再次来访",
+          "x": 100,
+          "baseline_y": 431,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "“搬一把椅子过来。”",
+          "x": 400,
+          "baseline_y": 398,
+          "font_size": 20,
+          "font_weight": 400
+        },
+        {
+          "text": "场景：理查德准备一同修复软件。",
+          "x": 400,
+          "baseline_y": 435,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "04",
+          "x": 32,
+          "baseline_y": 518,
+          "font_size": 20,
+          "font_weight": 500
+        },
+        {
+          "text": "软件已修复",
+          "x": 100,
+          "baseline_y": 518,
+          "font_size": 22,
+          "font_weight": 500
+        },
+        {
+          "text": "已选择继续调查",
+          "x": 100,
+          "baseline_y": 551,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "“先看原来保留的配置和留言。”",
+          "x": 400,
+          "baseline_y": 518,
+          "font_size": 20,
+          "font_weight": 400
+        },
+        {
+          "text": "场景：此前他曾劝玩家停止调查。",
+          "x": 400,
+          "baseline_y": 555,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "玩家可跳过早期拜访；初次见面与再次来访开场不同。",
+          "x": 32,
+          "baseline_y": 637,
+          "font_size": 18,
+          "font_weight": 400
+        },
+        {
+          "text": "依据项目文字整理",
+          "x": 32,
+          "baseline_y": 686,
+          "font_size": 18,
+          "font_weight": 400
+        }
+      ],
+      "sha256": "f2d45d5ba1b4206e2864d2717fd3d248950e41d601335d527f5c5a3e1bd3706a",
+      "source_sections": [
+        "sec-7 同一人物如何回应不同的玩家进度",
+        "sec-7 理查德四组状态对白"
+      ],
+      "source_conditions": [
+        [
+          "外壳尚未修复",
+          "初次见面"
+        ],
+        [
+          "外壳已修复",
+          "硬件尚未修复"
+        ],
+        [
+          "硬件已修复",
+          "再次来访"
+        ],
+        [
+          "软件已修复",
+          "已选择继续调查"
+        ]
+      ],
+      "verbatim_dialogue_excerpts": [
+        "严重的高温烧蚀和表面损伤，我现在什么也做不了。",
+        "等你把硬件修好了再说。",
+        "搬一把椅子过来。",
+        "先看原来保留的配置和留言。"
+      ],
+      "source_notes": [
+        "场景：理查德准备一同修复软件。",
+        "场景：此前他曾劝玩家停止调查。",
+        "玩家可跳过早期拜访；初次见面与再次来访开场不同。"
+      ],
+      "editorial_reconstruction": "使用条件—回应四行对照，没有把四个样例画成必须依次触发的步骤，也没有添加程序条件优先级。"
+    }
+  ]
+}

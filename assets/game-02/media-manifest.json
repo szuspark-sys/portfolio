@@ -1,0 +1,950 @@
+[
+  {
+    "id": "fold",
+    "file": "assets/toy/fold.mp4",
+    "type": "video",
+    "section": "T09",
+    "caption": "第一道折痕｜玩家版内置操作演示",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_000.ogv",
+    "version": "2026-11-07 玩家版",
+    "duration": 50.42,
+    "timeline": [
+      {
+        "at": 0.08,
+        "label": "从本关初始状态开始"
+      },
+      {
+        "at": 0.67,
+        "label": "小球给流水线上的发条机器人逐个同步转动；折纸第一次出现时由剧情自动操作。"
+      }
+    ],
+    "poster": "assets/toy/fold.jpg",
+    "campaign_number": "01",
+    "internal_level": 0,
+    "notes": "完整保留内置提示演示时序，非真人试玩录屏；旧版已转 H.264 MP4，直接复用。",
+    "bytes": 4521879
+  },
+  {
+    "id": "fold-poster",
+    "file": "assets/toy/fold.jpg",
+    "type": "image",
+    "section": "T09",
+    "caption": "第一道折痕｜玩家版演示截图",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_000.ogv",
+    "version": "2026-11-07 玩家版",
+    "time": 5,
+    "campaign_number": "01",
+    "width": 1120,
+    "height": 630,
+    "bytes": 71040
+  },
+  {
+    "id": "corridor",
+    "file": "assets/toy/corridor.mp4",
+    "type": "video",
+    "section": "T03",
+    "caption": "初次同行｜玩家版内置操作演示",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_007.ogv",
+    "version": "2026-11-07 玩家版",
+    "duration": 19.5,
+    "timeline": [
+      {
+        "at": 0.08,
+        "label": "从本关初始状态开始"
+      },
+      {
+        "at": 0.67,
+        "label": "两条走廊互相开门：先传递尺度，再同步星星数量，最后复制展翼状态。"
+      },
+      {
+        "at": 1.75,
+        "label": "先压短参考积木，再把尺度复制给左门闩。"
+      },
+      {
+        "at": 3.75,
+        "label": "已改变的门闩也能当参照，再帮另一条走廊开门。"
+      },
+      {
+        "at": 6.33,
+        "label": "第二段：先用参考星架开一侧门，再扩大聚光灯照到的范围。"
+      },
+      {
+        "at": 9.5,
+        "label": "把聚光灯照亮的星星数量同步给另一侧星锁。"
+      },
+      {
+        "at": 11.42,
+        "label": "第三段：折纸加快展翼玩具，让它展开；小球复制展开状态。"
+      },
+      {
+        "at": 14.25,
+        "label": "再把已经展开的翼锁作为参照，帮助另一侧通过。"
+      }
+    ],
+    "poster": "assets/toy/corridor.jpg",
+    "campaign_number": "02",
+    "internal_level": 7,
+    "notes": "完整保留内置提示演示时序，非真人试玩录屏；旧版已转 H.264 MP4，直接复用。",
+    "bytes": 7013192
+  },
+  {
+    "id": "corridor-poster",
+    "file": "assets/toy/corridor.jpg",
+    "type": "image",
+    "section": "T03",
+    "caption": "初次同行｜玩家版演示截图",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_007.ogv",
+    "version": "2026-11-07 玩家版",
+    "time": 4,
+    "campaign_number": "02",
+    "width": 1120,
+    "height": 630,
+    "bytes": 92068
+  },
+  {
+    "id": "magnet",
+    "file": "assets/toy/magnet.mp4",
+    "type": "video",
+    "section": "T05",
+    "caption": "磁力玩具台｜玩家版内置操作演示",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_008.ogv",
+    "version": "2026-11-07 玩家版",
+    "duration": 22.75,
+    "timeline": [
+      {
+        "at": 0.08,
+        "label": "从本关初始状态开始"
+      },
+      {
+        "at": 0.67,
+        "label": "让折纸接触磁铁，调磁场范围；小球翻转磁极，借屏风掩护缩短机器人视野。"
+      },
+      {
+        "at": 3.25,
+        "label": "第一次掩护：折纸先走到屏风右侧，小球留在磁铁旁。"
+      },
+      {
+        "at": 6.58,
+        "label": "屏风退回左端后，折纸从侧面进入巷道，近距离缩短 A 的视野。"
+      },
+      {
+        "at": 15.42,
+        "label": "借屏风掩护到达中段，复制 C 的朝向给 B。"
+      },
+      {
+        "at": 15.83,
+        "label": "再把 A 的朝向复制给 C，保留先前结果，打开出口道路。"
+      }
+    ],
+    "poster": "assets/toy/magnet.jpg",
+    "campaign_number": "05",
+    "internal_level": 8,
+    "notes": "完整保留内置提示演示时序，非真人试玩录屏；旧版已转 H.264 MP4，直接复用。",
+    "bytes": 1473900
+  },
+  {
+    "id": "magnet-poster",
+    "file": "assets/toy/magnet.jpg",
+    "type": "image",
+    "section": "T05",
+    "caption": "磁力玩具台｜玩家版演示截图",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_008.ogv",
+    "version": "2026-11-07 玩家版",
+    "time": 8,
+    "campaign_number": "05",
+    "width": 1120,
+    "height": 630,
+    "bytes": 82581
+  },
+  {
+    "id": "domino",
+    "file": "assets/toy/domino.mp4",
+    "type": "video",
+    "section": "T07",
+    "caption": "多米诺接力｜玩家版内置操作演示",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_009.ogv",
+    "version": "2026-11-07 玩家版",
+    "duration": 21.67,
+    "timeline": [
+      {
+        "at": 0.08,
+        "label": "从本关初始状态开始"
+      },
+      {
+        "at": 0.67,
+        "label": "先补齐近处骨牌；再用参考积木改远端骨牌，启动陀螺并拉伸加速，最后同步风扇。"
+      },
+      {
+        "at": 1.08,
+        "label": "近处两张骨牌太矮：折纸要分别靠近它们并拉高。"
+      },
+      {
+        "at": 8.08,
+        "label": "远端无法靠近：连接近处参考积木，再由折纸拉高对应骨牌。"
+      },
+      {
+        "at": 12.33,
+        "label": "静止的陀螺不能凭空转动，先复制投影图案的旋转。"
+      },
+      {
+        "at": 13.5,
+        "label": "解除慢速来源后，折纸拉伸正在旋转的陀螺来加速。"
+      },
+      {
+        "at": 14.5,
+        "label": "把陀螺转速同步给风扇，吹倒远端骨牌并放下第二座桥。"
+      }
+    ],
+    "poster": "assets/toy/domino.jpg",
+    "campaign_number": "06",
+    "internal_level": 9,
+    "notes": "完整保留内置提示演示时序，非真人试玩录屏；旧版已转 H.264 MP4，直接复用。",
+    "bytes": 1232415
+  },
+  {
+    "id": "domino-poster",
+    "file": "assets/toy/domino.jpg",
+    "type": "image",
+    "section": "T07",
+    "caption": "多米诺接力｜玩家版演示截图",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_009.ogv",
+    "version": "2026-11-07 玩家版",
+    "time": 8,
+    "campaign_number": "06",
+    "width": 1120,
+    "height": 630,
+    "bytes": 73890
+  },
+  {
+    "id": "beat",
+    "file": "assets/toy/beat.mp4",
+    "type": "video",
+    "section": "T04",
+    "caption": "同拍·乐器仓库｜玩家版内置操作演示",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_010.ogv",
+    "version": "2026-11-07 玩家版",
+    "duration": 16.92,
+    "timeline": [
+      {
+        "at": 0.08,
+        "label": "从本关初始状态开始"
+      },
+      {
+        "at": 0.17,
+        "label": "从本关初始状态开始"
+      },
+      {
+        "at": 0.67,
+        "label": "折纸拉伸节拍器并抬高黄色配重放慢节拍；先同步两只摆槌，再用八音盒错开它们。"
+      },
+      {
+        "at": 0.75,
+        "label": "折纸拉伸节拍器并抬高黄色配重放慢节拍；先同步两只摆槌，再用八音盒错开它们。"
+      },
+      {
+        "at": 2.25,
+        "label": "拉长摆杆并提高配重后，依次把慢节拍留给两只摆槌。"
+      },
+      {
+        "at": 6.0,
+        "label": "两只摆槌即使同拍变慢，也没有足够窗口；用八音盒错开相位。"
+      },
+      {
+        "at": 9.08,
+        "label": "两只摆槌相差半拍后，观察窗口，先让小球穿过。"
+      },
+      {
+        "at": 9.17,
+        "label": "两只摆槌相差半拍后，观察窗口，先让小球穿过。"
+      }
+    ],
+    "poster": "assets/toy/beat.jpg",
+    "campaign_number": "08",
+    "internal_level": 10,
+    "notes": "完整保留内置提示演示时序，非真人试玩录屏；旧版已转 H.264 MP4，直接复用。",
+    "bytes": 1318321
+  },
+  {
+    "id": "beat-poster",
+    "file": "assets/toy/beat.jpg",
+    "type": "image",
+    "section": "T04",
+    "caption": "同拍·乐器仓库｜玩家版演示截图",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_010.ogv",
+    "version": "2026-11-07 玩家版",
+    "time": 7,
+    "campaign_number": "08",
+    "width": 1120,
+    "height": 630,
+    "bytes": 81320
+  },
+  {
+    "id": "lock",
+    "file": "assets/toy/lock.mp4",
+    "type": "video",
+    "section": "T06",
+    "caption": "双箱船闸｜玩家版内置操作演示",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_011.ogv",
+    "version": "2026-11-07 玩家版",
+    "duration": 17.5,
+    "timeline": [
+      {
+        "at": 0.08,
+        "label": "从本关初始状态开始"
+      },
+      {
+        "at": 0.67,
+        "label": "左箱抬水到低岸，送折纸去弹簧箱；小球先到高岸储存高水位，再接回折纸。"
+      },
+      {
+        "at": 1.08,
+        "label": "左鸭子箱作为参照，把水道抬到两端低岸的高度，然后登船。"
+      },
+      {
+        "at": 7.5,
+        "label": "折纸在右岸下船，接触带回位弹簧的水箱，并持续把它保持在高位。"
+      },
+      {
+        "at": 10.0,
+        "label": "小球先上高岸，反向把水道的高水位存进左水箱。"
+      },
+      {
+        "at": 13.08,
+        "label": "折纸重新登船后，小球用左箱保存的高水位把船再次抬高。"
+      }
+    ],
+    "poster": "assets/toy/lock.jpg",
+    "campaign_number": "11",
+    "internal_level": 11,
+    "notes": "完整保留内置提示演示时序，非真人试玩录屏；旧版已转 H.264 MP4，直接复用。",
+    "bytes": 945168
+  },
+  {
+    "id": "lock-poster",
+    "file": "assets/toy/lock.jpg",
+    "type": "image",
+    "section": "T06",
+    "caption": "双箱船闸｜玩家版演示截图",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_011.ogv",
+    "version": "2026-11-07 玩家版",
+    "time": 8,
+    "campaign_number": "11",
+    "width": 1120,
+    "height": 630,
+    "bytes": 59280
+  },
+  {
+    "id": "mirror",
+    "file": "assets/toy/mirror.mp4",
+    "type": "video",
+    "section": "T08",
+    "caption": "镜宫·纸艺三段｜玩家版内置操作演示",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_012.ogv",
+    "version": "2026-11-07 玩家版",
+    "duration": 45.0,
+    "timeline": [
+      {
+        "at": 0.08,
+        "label": "从本关初始状态开始"
+      },
+      {
+        "at": 0.67,
+        "label": "折纸只能就近改变实体；小球可以把镜中反向的形态复制给另一件同类纸玩具。"
+      },
+      {
+        "at": 9.17,
+        "label": "先把拱起的纸路留在对岸，再收回参考物，让折纸自己也能回去；倒影使下一段成为凹槽。"
+      },
+      {
+        "at": 26.5,
+        "label": "低纸阶先帮助折纸登上操作台；高纸阶复制完成后断链，再把原纸阶降回低位，接回小球。"
+      }
+    ],
+    "poster": "assets/toy/mirror.jpg",
+    "campaign_number": "13",
+    "internal_level": 12,
+    "notes": "完整保留内置提示演示时序，非真人试玩录屏；旧版已转 H.264 MP4，直接复用。",
+    "bytes": 8694698
+  },
+  {
+    "id": "mirror-poster",
+    "file": "assets/toy/mirror.jpg",
+    "type": "image",
+    "section": "T08",
+    "caption": "镜宫·纸艺三段｜玩家版演示截图",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_012.ogv",
+    "version": "2026-11-07 玩家版",
+    "time": 5,
+    "campaign_number": "13",
+    "width": 1120,
+    "height": 630,
+    "bytes": 51531
+  },
+  {
+    "id": "solo",
+    "file": "assets/toy/solo.mp4",
+    "type": "video",
+    "section": "T09",
+    "caption": "独白｜玩家版内置操作演示",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_013.ogv",
+    "version": "2026-11-07 玩家版",
+    "duration": 46.5,
+    "timeline": [
+      {
+        "at": 0.08,
+        "label": "从本关初始状态开始"
+      },
+      {
+        "at": 0.67,
+        "label": "小球独自回到同一条流水线，为六个机器人逐一复制转动。"
+      }
+    ],
+    "poster": "assets/toy/solo.jpg",
+    "campaign_number": "14",
+    "internal_level": 13,
+    "notes": "完整保留内置提示演示时序，非真人试玩录屏；旧版已转 H.264 MP4，直接复用。",
+    "bytes": 3823041
+  },
+  {
+    "id": "solo-poster",
+    "file": "assets/toy/solo.jpg",
+    "type": "image",
+    "section": "T09",
+    "caption": "独白｜玩家版演示截图",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_013.ogv",
+    "version": "2026-11-07 玩家版",
+    "time": 5,
+    "campaign_number": "14",
+    "width": 1120,
+    "height": 630,
+    "bytes": 69964
+  },
+  {
+    "id": "book",
+    "file": "assets/toy/book.webp",
+    "type": "image",
+    "section": "T01",
+    "caption": "风琴书桌 III：通过书本方向分别尝试高度与进深变化。",
+    "source": "/Users/yuanzhixu/Documents/Codex/2026-10-28/users-yuanzhixu-downloads-toy-island-paper/outputs/fold-desk-v3-previews/03-split-routes.png",
+    "version": "网页原型",
+    "width": 1224,
+    "height": 810,
+    "bytes": 137056
+  },
+  {
+    "id": "clock",
+    "file": "assets/toy/clock.webp",
+    "type": "image",
+    "section": "T04",
+    "caption": "风琴书桌 III：指针表的时间尺度试验。",
+    "source": "/Users/yuanzhixu/Documents/Codex/2026-10-28/users-yuanzhixu-downloads-toy-island-paper/outputs/fold-desk-v3-previews/05-analog-watch.png",
+    "version": "网页原型",
+    "width": 1224,
+    "height": 810,
+    "bytes": 69116
+  },
+  {
+    "id": "warehouse",
+    "file": "assets/toy/warehouse.webp",
+    "type": "image",
+    "section": "T04",
+    "caption": "乐器仓库 V7.1：舞台与器械布局的开发中版本。",
+    "source": "/Users/yuanzhixu/Documents/Codex/2026-10-28/users-yuanzhixu-downloads-toy-island-paper/outputs/time-duet-warehouse-web/warehouse-preview-v7.1.png",
+    "version": "网页原型 V7.1",
+    "width": 1580,
+    "height": 902,
+    "bytes": 72630
+  },
+  {
+    "id": "bridge",
+    "file": "assets/toy/bridge.webp",
+    "type": "image",
+    "section": "T08",
+    "caption": "镜宫早期白模：真实纸桥、镜面与接收件的位置关系。",
+    "source": "/Users/yuanzhixu/Documents/Codex/2026-10-28/users-yuanzhixu-downloads-toy-island-paper/outputs/mirror-origami-duet-web-v1/validation/第一段-反向纸桥.png",
+    "version": "网页原型 V1",
+    "width": 1580,
+    "height": 988,
+    "bytes": 32426
+  },
+  {
+    "id": "rail",
+    "file": "assets/toy/rail.webp",
+    "type": "image",
+    "section": "T05",
+    "caption": "磁力玩具台网页原型：屏风轨道与机器人观察方向。",
+    "source": "/Users/yuanzhixu/Documents/Codex/2026-10-28/users-yuanzhixu-downloads-toy-island-paper/outputs/magnetic-toy-rail-web/preview.png",
+    "version": "网页原型",
+    "width": 1580,
+    "height": 902,
+    "bytes": 72014
+  },
+  {
+    "id": "concept",
+    "file": "assets/toy/concept.webp",
+    "type": "image",
+    "section": "T05",
+    "caption": "磁力玩具台美术概念参考：玩具体块与桌面的组织。",
+    "source": "/Users/yuanzhixu/Documents/Codex/2026-10-28/users-yuanzhixu-downloads-toy-island-paper/outputs/美术改造概念图/03-磁力玩具台-v1.png",
+    "version": "开发期生成美术概念",
+    "width": 1580,
+    "height": 889,
+    "bytes": 124948
+  },
+  {
+    "id": "original",
+    "file": "assets/toy/original.webp",
+    "type": "image",
+    "section": "T01",
+    "caption": "风琴书桌原型第一关：早期尺度与物理测试。",
+    "source": "/Users/yuanzhixu/Downloads/星群的最早初稿和第二次修改稿如下.docx",
+    "version": "网页原型，原作者回顾文档所附截图",
+    "width": 1224,
+    "height": 800,
+    "bytes": 65950
+  },
+  {
+    "id": "sketch-scale",
+    "file": "assets/toy/sketch-scale.jpg",
+    "type": "image",
+    "section": "T02",
+    "caption": "手写设计笔记：颜色提示与时间／尺度能力的早期探索。",
+    "source": "/Users/yuanzhixu/Documents/Codex/2026-11-18/gamejam-2/work/portfolio-rebuild/notes/IMG_9121.png",
+    "version": "作者手写过程稿",
+    "width": 1125,
+    "height": 2000,
+    "bytes": 640865
+  },
+  {
+    "id": "sketch-rhythm",
+    "file": "assets/toy/sketch-rhythm.jpg",
+    "type": "image",
+    "section": "T04",
+    "caption": "手写设计笔记：摆动、节拍与时间关卡的不同玩具方案。",
+    "source": "/Users/yuanzhixu/Documents/Codex/2026-11-18/gamejam-2/work/portfolio-rebuild/notes/IMG_9129.png",
+    "version": "作者手写过程稿",
+    "width": 1125,
+    "height": 2000,
+    "bytes": 560515
+  },
+  {
+    "id": "sketch-harbor",
+    "file": "assets/toy/sketch-harbor.jpg",
+    "type": "image",
+    "section": "T06",
+    "caption": "港口空间手绘：两处操作平台与终点的初步关系。",
+    "source": "/Users/yuanzhixu/Documents/Codex/2026-11-18/gamejam-2/work/portfolio-rebuild/notes/IMG_9134.png",
+    "version": "作者手绘过程稿",
+    "width": 2000,
+    "height": 1125,
+    "bytes": 386333
+  },
+  {
+    "id": "sketch-mirror-islands",
+    "file": "assets/toy/sketch-mirror-islands.jpg",
+    "type": "image",
+    "section": "T08",
+    "caption": "镜宫三岛草图：后来放弃的拼装与指引方案。",
+    "source": "/Users/yuanzhixu/Documents/Codex/2026-11-18/gamejam-2/work/portfolio-rebuild/notes/IMG_9159.png",
+    "version": "作者手绘过程稿，未采用",
+    "width": 2000,
+    "height": 1125,
+    "bytes": 328373
+  },
+  {
+    "id": "sketch-mirror-route",
+    "file": "assets/toy/sketch-mirror-route.jpg",
+    "type": "image",
+    "section": "T08",
+    "caption": "镜宫分路草图：局部实体操作、镜面和另一侧道路。",
+    "source": "/Users/yuanzhixu/Documents/Codex/2026-11-18/gamejam-2/work/portfolio-rebuild/notes/IMG_9166.png",
+    "version": "作者手绘过程稿",
+    "width": 2000,
+    "height": 1125,
+    "bytes": 246886
+  },
+  {
+    "id": "sketch-ending",
+    "file": "assets/toy/sketch-ending.jpg",
+    "type": "image",
+    "section": "T09",
+    "caption": "手写结构笔记：最后章节回到早先场景，让角色独自行动的早期想法。",
+    "source": "/Users/yuanzhixu/Documents/Codex/2026-11-18/gamejam-2/work/portfolio-rebuild/notes/IMG_9123.png",
+    "version": "作者手写过程稿，非最终章数",
+    "width": 1125,
+    "height": 2000,
+    "bytes": 545862
+  },
+  {
+    "id": "magnet-vision-idea",
+    "file": "assets/toy/magnet-vision-idea.jpg",
+    "type": "image",
+    "section": "T05",
+    "caption": "最初的视野同步示意：尝试把两个监控者的观察范围同步。",
+    "source": "/Users/yuanzhixu/Documents/Codex/2026-11-18/gamejam-2/work/portfolio-rebuild/recovered-images/chat-1794-2.jpg",
+    "version": "作者提供的设计示意，2026-11-02",
+    "width": 1518,
+    "height": 818,
+    "bytes": 74775
+  },
+  {
+    "id": "magnet-track-revision",
+    "file": "assets/toy/magnet-track-revision.jpg",
+    "type": "image",
+    "section": "T05",
+    "caption": "在机关图上调整轨道方向与初始位置的标注。",
+    "source": "/Users/yuanzhixu/Documents/Codex/2026-11-18/gamejam-2/work/portfolio-rebuild/recovered-images/chat-1805-1.jpg",
+    "version": "开发讨论中的标注图，2026-11-02",
+    "width": 1800,
+    "height": 1042,
+    "bytes": 179871
+  },
+  {
+    "id": "magnet-range-diagram",
+    "file": "assets/toy/magnet-range-diagram.jpg",
+    "type": "image",
+    "section": "T05",
+    "caption": "屏风初始位置、遮挡位置与小球操作范围的关系图。",
+    "source": "/Users/yuanzhixu/Documents/Codex/2026-11-18/gamejam-2/work/portfolio-rebuild/recovered-images/chat-1819-3.jpg",
+    "version": "作者提供的设计示意，2026-11-02",
+    "width": 1318,
+    "height": 1112,
+    "bytes": 106053
+  },
+  {
+    "id": "lock-layout-diagram",
+    "file": "assets/toy/lock-layout-diagram.jpg",
+    "type": "image",
+    "section": "T06",
+    "caption": "双箱船闸原始布局：A/B 是水箱，C 是水道，X/Y/Z 是三处岸台。",
+    "source": "/Users/yuanzhixu/Documents/Codex/2026-11-18/gamejam-2/work/portfolio-rebuild/recovered-images/chat-1931-1.jpg",
+    "version": "作者提供的设计示意，2026-11-03",
+    "width": 1546,
+    "height": 336,
+    "bytes": 32038
+  },
+  {
+    "id": "prototype-feedback-rails",
+    "file": "assets/toy/prototype-feedback-rails.jpg",
+    "type": "image",
+    "section": "T10",
+    "caption": "开发中截图：讨论减少与操作无关的栏杆，让关键物件更清楚。",
+    "source": "/Users/yuanzhixu/Documents/Codex/2026-11-18/gamejam-2/work/portfolio-rebuild/recovered-images/chat-2020-1.jpg",
+    "version": "网页原型讨论截图，2026-11-03",
+    "width": 210,
+    "height": 162,
+    "bytes": 9258
+  },
+  {
+    "id": "magnet-setup",
+    "file": "assets/toy/magnet-setup.jpg",
+    "type": "image",
+    "section": "T05",
+    "caption": "调整磁场范围与屏风位置，准备第一次掩护。",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_008.ogv",
+    "version": "2026-11-07 玩家版内置演示帧",
+    "time": 1.9,
+    "width": 1120,
+    "height": 630,
+    "bytes": 109330
+  },
+  {
+    "id": "magnet-near-a",
+    "file": "assets/toy/magnet-near-a.jpg",
+    "type": "image",
+    "section": "T05",
+    "caption": "折纸从侧面接近机器人 A，近身缩短视野。",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_008.ogv",
+    "version": "2026-11-07 玩家版内置演示帧",
+    "time": 6.9,
+    "width": 1120,
+    "height": 630,
+    "bytes": 110250
+  },
+  {
+    "id": "magnet-copy-c-b",
+    "file": "assets/toy/magnet-copy-c-b.jpg",
+    "type": "image",
+    "section": "T05",
+    "caption": "后段第一次朝向复制：C 作为参照，B 作为接收者。",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_008.ogv",
+    "version": "2026-11-07 玩家版内置演示帧",
+    "time": 15.7,
+    "width": 1120,
+    "height": 630,
+    "bytes": 117999
+  },
+  {
+    "id": "lock-low",
+    "file": "assets/toy/lock-low.jpg",
+    "type": "image",
+    "section": "T06",
+    "caption": "低水位阶段：用左水箱把水道抬到低岸。",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_011.ogv",
+    "version": "2026-11-07 玩家版内置演示帧",
+    "time": 1.7,
+    "width": 1120,
+    "height": 630,
+    "bytes": 65649
+  },
+  {
+    "id": "lock-hold",
+    "file": "assets/toy/lock-hold.jpg",
+    "type": "image",
+    "section": "T06",
+    "caption": "折纸在右岸维持弹簧水箱，小球留在船上。",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_011.ogv",
+    "version": "2026-11-07 玩家版内置演示帧",
+    "time": 7.6,
+    "width": 1120,
+    "height": 630,
+    "bytes": 65206
+  },
+  {
+    "id": "magnet-copy-a-c",
+    "file": "assets/toy/magnet-copy-a-c.jpg",
+    "type": "image",
+    "section": "T05",
+    "caption": "第二次朝向复制：A 作为参照，C 作为接收者。",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_008.ogv",
+    "version": "2026-11-07 玩家版内置演示帧",
+    "time": 16.3,
+    "width": 1120,
+    "height": 630,
+    "bytes": 118731
+  },
+  {
+    "id": "lock-store",
+    "file": "assets/toy/lock-store.jpg",
+    "type": "image",
+    "section": "T06",
+    "caption": "小球上高岸后，把高水位反向存入左水箱。",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_011.ogv",
+    "version": "2026-11-07 玩家版内置演示帧",
+    "time": 10.3,
+    "width": 1120,
+    "height": 630,
+    "bytes": 63948
+  },
+  {
+    "id": "lock-collect",
+    "file": "assets/toy/lock-collect.jpg",
+    "type": "image",
+    "section": "T06",
+    "caption": "水道降低，折纸离开右箱并重新登船。",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_011.ogv",
+    "version": "2026-11-07 玩家版内置演示帧",
+    "time": 12.5,
+    "width": 1120,
+    "height": 630,
+    "bytes": 65907
+  },
+  {
+    "id": "lock-raise",
+    "file": "assets/toy/lock-raise.jpg",
+    "type": "image",
+    "section": "T06",
+    "caption": "用左箱保存的高位重新抬船，把折纸带上高岸。",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_011.ogv",
+    "version": "2026-11-07 玩家版内置演示帧",
+    "time": 13.6,
+    "width": 1120,
+    "height": 630,
+    "bytes": 65355
+  },
+  {
+    "id": "mirror-reflection",
+    "file": "assets/toy/mirror-reflection.jpg",
+    "type": "image",
+    "section": "T08",
+    "caption": "第一段：选取镜中的纸桥形态作为参照。",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_012.ogv",
+    "version": "2026-11-07 玩家版内置演示帧",
+    "time": 3.2,
+    "width": 1120,
+    "height": 630,
+    "bytes": 73941
+  },
+  {
+    "id": "mirror-trough",
+    "file": "assets/toy/mirror-trough.jpg",
+    "type": "image",
+    "section": "T08",
+    "caption": "第二段后半：用纸拱倒影的下凹形态通过低梁。",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_012.ogv",
+    "version": "2026-11-07 玩家版内置演示帧",
+    "time": 22.3,
+    "width": 1120,
+    "height": 630,
+    "bytes": 85515
+  },
+  {
+    "id": "mirror-arch",
+    "file": "assets/toy/mirror-arch.jpg",
+    "type": "image",
+    "section": "T08",
+    "caption": "第二段：先保存真实纸拱的向上形态。",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_012.ogv",
+    "version": "2026-11-07 玩家版内置演示帧",
+    "time": 14.3,
+    "width": 1120,
+    "height": 630,
+    "bytes": 75452
+  },
+  {
+    "id": "mirror-stair",
+    "file": "assets/toy/mirror-stair.jpg",
+    "type": "image",
+    "section": "T08",
+    "caption": "第三段：在不同岸台之间复制纸阶高度。",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_012.ogv",
+    "version": "2026-11-07 玩家版内置演示帧",
+    "time": 31.4,
+    "width": 1120,
+    "height": 630,
+    "bytes": 67435
+  },
+  {
+    "id": "beat-slow",
+    "file": "assets/toy/beat-slow.jpg",
+    "type": "image",
+    "section": "T04",
+    "caption": "先把节拍器的慢节拍分别留给两只摆槌。",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_010.ogv",
+    "version": "2026-11-07 玩家版内置演示帧",
+    "time": 3.0,
+    "width": 1120,
+    "height": 630,
+    "bytes": 103555
+  },
+  {
+    "id": "corridor-scale",
+    "file": "assets/toy/corridor-scale.jpg",
+    "type": "image",
+    "section": "T03",
+    "caption": "第一段：门闩尺度在两侧走廊之间传递。",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_007.ogv",
+    "version": "2026-11-07 玩家版内置演示帧",
+    "time": 1.6,
+    "width": 1120,
+    "height": 630,
+    "bytes": 98588
+  },
+  {
+    "id": "beat-phase",
+    "file": "assets/toy/beat-phase.jpg",
+    "type": "image",
+    "section": "T04",
+    "caption": "再用八音盒调整两只摆槌的相对时机。",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_010.ogv",
+    "version": "2026-11-07 玩家版内置演示帧",
+    "time": 7.0,
+    "width": 1120,
+    "height": 630,
+    "bytes": 105269
+  },
+  {
+    "id": "corridor-count",
+    "file": "assets/toy/corridor-count.jpg",
+    "type": "image",
+    "section": "T03",
+    "caption": "第二段：几何范围改变可被照亮的星星数量。",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_007.ogv",
+    "version": "2026-11-07 玩家版内置演示帧",
+    "time": 7.0,
+    "width": 1120,
+    "height": 630,
+    "bytes": 142697
+  },
+  {
+    "id": "domino-spin",
+    "file": "assets/toy/domino-spin.jpg",
+    "type": "image",
+    "section": "T07",
+    "caption": "先借光影的运动启动陀螺，再调整转速。",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_009.ogv",
+    "version": "2026-11-07 玩家版内置演示帧",
+    "time": 12.8,
+    "width": 1120,
+    "height": 630,
+    "bytes": 97854
+  },
+  {
+    "id": "corridor-state",
+    "file": "assets/toy/corridor-state.jpg",
+    "type": "image",
+    "section": "T03",
+    "caption": "第三段：把玩具的展开状态传给翼锁。",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_007.ogv",
+    "version": "2026-11-07 玩家版内置演示帧",
+    "time": 12.4,
+    "width": 1120,
+    "height": 630,
+    "bytes": 129370
+  },
+  {
+    "id": "domino-chain",
+    "file": "assets/toy/domino-chain.jpg",
+    "type": "image",
+    "section": "T07",
+    "caption": "陀螺推动风扇，风扇触发骨牌接力。",
+    "source": "/Users/yuanzhixu/玩具岛/玩具岛-玩家版-20261107/Godot/Assets/Videos/Hints/level_009.ogv",
+    "version": "2026-11-07 玩家版内置演示帧",
+    "time": 15.4,
+    "width": 1120,
+    "height": 630,
+    "bytes": 97846
+  },
+  {
+    "id": "demo-magnet",
+    "file": "assets/toy/demos/magnet.html",
+    "type": "demo",
+    "section": "T05",
+    "caption": "可操作历史原型：磁力玩具台 V3",
+    "source": "/Users/yuanzhixu/Documents/Codex/2026-11-18/gamejam-2/outputs/游戏设计作品集/assets/demos/magnet.html",
+    "version": "磁力玩具台 V3",
+    "external_urls": [],
+    "local_dependencies": [],
+    "notes": "开发原型，不代表最终发布版的全部规则与美术。",
+    "bytes": 663939
+  },
+  {
+    "id": "demo-lock",
+    "file": "assets/toy/demos/lock.html",
+    "type": "demo",
+    "section": "T06",
+    "caption": "可操作历史原型：双箱船闸 V1.1",
+    "source": "/Users/yuanzhixu/Documents/Codex/2026-11-18/gamejam-2/outputs/游戏设计作品集/assets/demos/lock.html",
+    "version": "双箱船闸 V1.1",
+    "external_urls": [],
+    "local_dependencies": [],
+    "notes": "开发原型，不代表最终发布版的全部规则与美术。",
+    "bytes": 653422
+  },
+  {
+    "id": "demo-warehouse",
+    "file": "assets/toy/demos/warehouse.html",
+    "type": "demo",
+    "section": "T04",
+    "caption": "可操作历史原型：乐器仓库 V7.4",
+    "source": "/Users/yuanzhixu/Documents/Codex/2026-11-18/gamejam-2/outputs/游戏设计作品集/assets/demos/warehouse.html",
+    "version": "乐器仓库 V7.4",
+    "external_urls": [],
+    "local_dependencies": [],
+    "notes": "开发原型，不代表最终发布版的全部规则与美术。",
+    "bytes": 666638
+  },
+  {
+    "id": "demo-mirror",
+    "file": "assets/toy/demos/mirror.html",
+    "type": "demo",
+    "section": "T08",
+    "caption": "可操作历史原型：镜宫纸艺三段 V2",
+    "source": "/Users/yuanzhixu/Documents/Codex/2026-11-18/gamejam-2/outputs/游戏设计作品集/assets/demos/mirror.html",
+    "version": "镜宫纸艺三段 V2",
+    "external_urls": [],
+    "local_dependencies": [],
+    "notes": "开发原型，不代表最终发布版的全部规则与美术。",
+    "bytes": 674358
+  }
+]

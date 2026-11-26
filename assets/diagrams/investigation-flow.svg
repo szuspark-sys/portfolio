@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="710" viewBox="0 0 920 710" role="img" aria-labelledby="title desc">
+<title id="title">维修推进与调查出口</title>
+<desc id="desc">新手指引后接手K–3089，依次完成外壳、硬件和软件修复。修复完成后可结束任务或继续调查。依据项目文字整理。</desc>
+<metadata>依据项目文字整理。编辑重排图，非原始游戏画面。</metadata>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#666666"/></marker></defs>
+<rect width="920" height="710" fill="#101011"/>
+<g font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif">
+<text x="32" y="44" font-size="24" font-weight="700" text-anchor="start" fill="#dddddd">维修推进与调查出口</text>
+<text x="150" y="108" font-size="22" font-weight="500" text-anchor="middle" fill="#dddddd">接手 K–3089</text>
+<text x="150" y="138" font-size="18" font-weight="400" text-anchor="middle" fill="#dddddd">新手指引结束后</text>
+<text x="360" y="106" font-size="18" font-weight="500" text-anchor="start" fill="#D1F200">每个阶段开放的信息</text>
+<path d="M 150 156 L 150 184" fill="none" stroke="#666666" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter" marker-end="url(#arrow)"/>
+<text x="150" y="214" font-size="24" font-weight="700" text-anchor="middle" fill="#dddddd">外壳修复</text>
+<path d="M 236 206 L 328 206" fill="none" stroke="#666666" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter"/>
+<text x="360" y="207" font-size="22" font-weight="500" text-anchor="start" fill="#dddddd">恢复姓名与完整编号</text>
+<text x="360" y="239" font-size="18" font-weight="400" text-anchor="start" fill="#dddddd">用于继续查询</text>
+<path d="M 150 231 L 150 292" fill="none" stroke="#666666" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter" marker-end="url(#arrow)"/>
+<text x="150" y="322" font-size="24" font-weight="700" text-anchor="middle" fill="#dddddd">硬件修复</text>
+<path d="M 236 314 L 328 314" fill="none" stroke="#666666" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter"/>
+<text x="360" y="315" font-size="22" font-weight="500" text-anchor="start" fill="#dddddd">恢复硬件运行</text>
+<text x="360" y="347" font-size="18" font-weight="400" text-anchor="start" fill="#dddddd">获得软件修复前提</text>
+<path d="M 150 339 L 150 400" fill="none" stroke="#666666" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter" marker-end="url(#arrow)"/>
+<text x="150" y="430" font-size="24" font-weight="700" text-anchor="middle" fill="#dddddd">软件修复</text>
+<path d="M 236 422 L 328 422" fill="none" stroke="#666666" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter"/>
+<text x="360" y="423" font-size="22" font-weight="500" text-anchor="start" fill="#dddddd">恢复文件读取</text>
+<text x="360" y="455" font-size="18" font-weight="400" text-anchor="start" fill="#dddddd">取得旧配置与留言</text>
+<path d="M 150 447 L 150 491" fill="none" stroke="#666666" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter" marker-end="url(#arrow)"/>
+<text x="150" y="523" font-size="22" font-weight="700" text-anchor="middle" fill="#dddddd">维修完成</text>
+<path d="M 150 541 L 150 568" fill="none" stroke="#666666" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter"/>
+<path d="M 150 568 L 616 568" fill="none" stroke="#666666" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter"/>
+<path d="M 150 568 L 150 599" fill="none" stroke="#666666" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter" marker-end="url(#arrow)"/>
+<path d="M 616 568 L 616 599" fill="none" stroke="#666666" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter" marker-end="url(#arrow)"/>
+<text x="150" y="632" font-size="24" font-weight="700" text-anchor="middle" fill="#dddddd">结束任务</text>
+<text x="616" y="632" font-size="24" font-weight="700" text-anchor="middle" fill="#dddddd">继续调查</text>
+<text x="616" y="662" font-size="18" font-weight="400" text-anchor="middle" fill="#dddddd">审阅证据，追查十七年前的太阳风暴事故</text>
+<text x="32" y="690" font-size="18" font-weight="400" text-anchor="start" fill="#dddddd">依据项目文字整理</text>
+</g>
+</svg>

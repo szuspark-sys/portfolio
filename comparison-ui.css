@@ -1,0 +1,8 @@
+/* Comparison navigation only; it has no selectors inside the work content. */
+#xu-ab-switch{position:absolute;top:84px;left:calc(7.8vw + 220px);z-index:4;display:flex;align-items:baseline;gap:12px;font:400 12px/1.7 'SFMono-Regular',Menlo,Consolas,monospace;letter-spacing:0;color:#787878;margin:0;padding:0;border:0;background:none}
+#xu-ab-switch a{color:#787878;text-decoration:none;white-space:nowrap}
+#xu-ab-switch a[aria-current=page]{color:#fff;text-decoration:underline;text-underline-offset:4px}
+#xu-ab-switch a:hover{color:#fff}
+#xu-ab-switch a:focus-visible{outline:1px solid #fff;outline-offset:5px}
+@media(min-width:768px) and (max-width:1279px){#xu-ab-switch{top:49px;left:calc(7.8vw + 180px)}}
+@media(max-width:767px){#xu-ab-switch{top:31px;left:calc(6.25vw + 140px);gap:8px}}

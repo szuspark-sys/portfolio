@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141414">
+  <meta name="description" content="《星群》任务与线索。以寻找佩内洛普为例，阅读两条调查路线和开发期原始流程图。">
+  <title>任务与线索 · 星群</title>
+  <link rel="icon" href="../../../favicon.svg">
+  <link rel="stylesheet" href="reading.css">
+  <script src="reading.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#reader">跳到正文</a>
+  <div class="project-frame">
+    <aside class="project-index">
+      <div class="project-name">
+        <a class="site-return" href="../">返回《星群》项目</a>
+        <p>星群 <span lang="en">Astra Nexus</span></p>
+      </div>
+      <nav class="section-menu" aria-label="任务与线索目录">
+        <a href="#case" data-section-link="case" aria-current="page">寻找佩内洛普</a>
+        <a href="#repair" data-section-link="repair">维修流程原图</a>
+        <a href="#incident" data-section-link="incident">事故调查原图</a>
+      </nav>
+    </aside>
+
+    <main id="reader" class="project-reader" tabindex="-1">
+      <article data-section="case" aria-labelledby="case-title">
+        <header class="section-heading">
+          <p class="section-name">任务与线索</p>
+          <h1 id="case-title" tabindex="-1">寻找佩内洛普</h1>
+          <p class="intro">修复旧终端需要硬件组组长佩内洛普的帮助。同一个目标有两条线索入口，一条从人物关系出发，另一条从工作记录出发。</p>
+        </header>
+
+        <figure class="case-figure" aria-labelledby="flow-title">
+          <div class="flow">
+            <p class="flow-terminal" id="flow-title">得知硬件维修由硬件组负责</p>
+            <div class="flow-branches">
+              <section class="flow-route">
+                <h2>人际路线</h2>
+                <ol>
+                  <li><strong>找到组长办公室</strong><span>组员指路，办公室无人</span></li>
+                  <li><strong>看到花盆署名</strong><span>标签上留有安妮的名字</span></li>
+                  <li><strong>向安妮询问</strong><span>硬件组近期在 L210</span></li>
+                </ol>
+              </section>
+              <section class="flow-route record-route">
+                <h2>工作记录路线</h2>
+                <ol>
+                  <li><strong>搜索硬件组</strong><span>从航行日志和公告入手</span></li>
+                  <li><strong>找到安全提醒</strong><span>公告提到近期的设备检修</span></li>
+                  <li><strong>查到作业地点</strong><span>旧自动制造区 L210</span></li>
+                </ol>
+              </section>
+            </div>
+            <p class="flow-terminal flow-result">在 L210 找到佩内洛普</p>
+          </div>
+          <figcaption>
+            <span>依据开发期 Mermaid 维修图整理，地点编号沿用原稿。</span>
+            <a href="#repair-focus">对照 Mermaid 原图</a>
+          </figcaption>
+        </figure>
+
+        <section class="reading-note" aria-labelledby="decision-title">
+          <h2 id="decision-title">两条入口，各自给出有效线索</h2>
+          <p>访问办公室会带出安妮和佩内洛普的关系。善于查工作记录的玩家，可以从公告直接前往作业区。两条路线给出同一个地点，人物关系仍然值得探索。</p>
+          <details>
+            <summary>读一段安妮的对白</summary>
+            <blockquote>“最近硬件组一直在L210那边收拾旧设备。她这几天大部分时间都在那里。”</blockquote>
+            <p class="note">开发期维修流程图 · 安妮回答佩内洛普的去向</p>
+          </details>
+        </section>
+      </article>
+
+      <article data-section="source" aria-labelledby="source-title" hidden>
+        <header class="section-heading source-heading">
+          <p class="section-name">任务与线索 / 开发原稿</p>
+          <h1 id="source-title" tabindex="-1">维修流程原图</h1>
+          <p class="intro" id="source-description"></p>
+        </header>
+        <div class="viewer-toolbar" aria-label="原图查看工具">
+          <button type="button" data-action="fit">全图</button>
+          <button type="button" data-action="width">适应宽度</button>
+          <button type="button" data-action="focus" hidden>定位佩内洛普</button>
+          <div class="zoom-controls">
+            <button type="button" data-action="out" aria-label="缩小">−</button>
+            <output aria-live="polite" id="scale-readout"></output>
+            <button type="button" data-action="in" aria-label="放大">+</button>
+          </div>
+          <a id="open-svg" href="repair-flow.svg" target="_blank" rel="noopener">打开 SVG</a>
+        </div>
+        <div class="diagram-viewport" id="diagram-viewport" tabindex="0" aria-label="原图画布，可拖动或使用方向键移动">
+          <img id="source-diagram" alt="" decoding="async">
+        </div>
+        <p class="note diagram-note">拖动或滚动查看大图。也可用方向键移动，按 ＋ 或 － 缩放。</p>
+        <p class="case-back"><a href="#case">返回「寻找佩内洛普」</a></p>
+      </article>
+      <noscript><p>开发原图可直接打开。 <a href="repair-flow.svg">维修流程 SVG</a> · <a href="incident-flow.svg">事故调查 SVG</a></p></noscript>
+    </main>
+  </div>
+</body>
+</html>
