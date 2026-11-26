@@ -1,6 +1,6 @@
 .chants-page .chants-article {
   width: 100%;
-  max-width: 700px;
+  max-width: 680px;
   margin-inline: auto;
   padding-block: clamp(1.5rem, 3.5vw, 3.5rem) clamp(2.5rem, 5vw, 5rem);
   color: var(--fg);

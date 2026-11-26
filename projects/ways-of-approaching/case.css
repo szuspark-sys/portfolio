@@ -1,0 +1,15 @@
+body.a-exhibition-revised .order-exhibition .exhibit-cover figcaption {
+  margin-inline: auto;
+  max-width: 48rem;
+  text-align: center;
+}
+
+body.a-exhibition-revised .order-exhibition .exhibit-figure figcaption {
+  margin-top: 0.7rem;
+}
+
+@media (max-width: 767px) {
+  body.a-exhibition-revised .order-exhibition .exhibit-cover figcaption {
+    text-align: start;
+  }
+}
