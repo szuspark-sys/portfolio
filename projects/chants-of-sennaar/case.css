@@ -27,6 +27,32 @@
   padding-block: 0.1em;
 }
 
+.chants-page .chants-figure {
+  margin: 1.35em 0 1.65em;
+}
+
+.chants-page .chants-figure > a,
+.chants-page .chants-figure img {
+  display: block;
+}
+
+.chants-page .chants-figure img {
+  width: 100%;
+  height: auto;
+}
+
+.chants-page .chants-figure figcaption {
+  margin-top: 0.55rem;
+  color: #b6b4af;
+  font: 400 0.8125rem/1.6 var(--sans);
+}
+
+.chants-page .chants-figure figcaption a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
 .chants-page .chants-return {
   margin-top: clamp(2.25rem, 4vw, 3.25rem);
   padding-top: 1rem;
