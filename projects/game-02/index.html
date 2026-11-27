@@ -5,174 +5,194 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#141414">
   <title>玩具岛 TOYDUET — 徐渊植 Yuanzhi Xu</title>
-  <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../../favicon.svg">
   <link rel="stylesheet" href="../../archive.css">
   <link rel="stylesheet" href="../../site.css">
   <link rel="stylesheet" href="../../order-style.css">
-  <link rel="stylesheet" href="../../project-a.css">
-  <link rel="stylesheet" href="case.css?v=visual-fix">
+  <link rel="stylesheet" href="../../editorial-case.css">
   <script src="../../archive.js" defer></script>
-  <script src="../../assets/game-02/portfolio-widgets.js" defer></script>
 </head>
-<body id="top" class="content-project source-archive a-site toy-showcase" data-layout-version="A" data-layout-project="game-02">
-  <a class="skip-link" href="#project-title">跳至项目内容</a>
+<body id="top" class="case-page toy-case">
+  <a class="skip-link" href="#main-content">跳至内容</a>
   <header class="site-header page-width">
-    <a class="identity" href="../../" aria-label="徐渊植，返回首页"><span class="identity-cn">徐渊植</span><span>Yuanzhi Xu</span></a>
+    <a href="../../" class="identity" aria-label="徐渊植，返回首页"><span class="identity-cn">徐渊植</span><span>Yuanzhi Xu</span></a>
     <nav class="header-context" aria-label="全站导航"><a href="../../" aria-current="page">WORK</a><a href="../../info/">INFO</a></nav>
   </header>
+  <main id="main-content" class="page-width case-main">
+<div class="case-hero">
 
-  <main id="main-content" class="a-main toy-main">
-    <section class="toy-section toy-hero" id="sec-1" aria-labelledby="project-title">
-      <header class="toy-heading"><span class="toy-number">01</span><h1 id="project-title">玩具岛 <span lang="en">TOYDUET</span></h1></header>
-      <p class="toy-subhead">一颗玻璃珠，一张折纸——围绕“尺度变化”与“属性同步”，探索单人双角色协作的空间解谜体验。</p>
-      <div class="toy-info">
-        <span>2026.11 thatgamejam #02</span>
-        <span>2 人共创（THISHI × doublesurplus）</span>
-        <span>我的工作：重构双角色能力关系、独立设计 8 个关卡、AI 辅助 Godot 开发与整合</span>
-        <a class="toy-release" href="https://thishi.itch.io/toyduet" target="_blank" rel="noopener noreferrer">itch.io 试玩页</a>
-      </div>
-      <figure class="toy-figure toy-cover">
-        <a class="toy-light-frame" href="../../assets/game-02/toy-cover.jpg" data-image data-title="玩具岛 · 游戏场景" aria-label="放大玩具岛场景图">
-          <img src="../../assets/game-02/toy-cover.jpg" width="1120" height="630" alt="磁力玩具台全景，两个角色面对屏风和机器人的视野" fetchpriority="high">
-        </a>
-      </figure>
-    </section>
+<header><h1 id="project-title" class="case-title">玩具岛 <span lang="en">TOYDUET</span></h1><p class="case-subtitle">一款以玻璃珠与折纸为核心的双角色空间解谜游戏——一个负责近身改变物件尺度，一个负责隔空传递状态，让玩家在站位、距离与机关反馈中发现彼此的必要性。</p>
+<ul class="case-meta"><li>2026.11 thatgamejam #02</li><li>两人共创（全作共 14 关，本人独立设计其中 8 关，其余 6 关由队友设计）</li><li>我的工作：双角色能力与关卡设计、AI 辅助 Godot 开发与整合</li></ul></header>
+<div class="case-prose case-overview"><p>《玩具岛 TOYDUET》创作于 2026 年 11 月 thatgamejam #02，由我与队友 THISHI 两人共创并以 Godot 完成玩家版（全作共 14 关，我独立负责其中 8 个关卡的空间、机关、解法与教学设计，其余 6 关由队友设计）。玩家在玻璃珠与折纸之间自由切换，通过改写旧玩具的物理与行为属性打通前路。</p></div>
+<div class="case-links"><a href="https://thishi.itch.io/toyduet" target="_blank" rel="noopener noreferrer">itch.io 试玩页 ↗</a></div>
+<figure class="case-figure case-light toy-hero-image">
+  <a href="../../assets/game-02/lock.jpg" data-image data-title="双箱船闸玩家版定帧" data-caption="双箱船闸 · 11.07 玩家版定帧" aria-label="放大：双箱船闸玩家版定帧">
+    <img src="../../assets/game-02/lock.jpg" width="1120" height="630" alt="双箱船闸玩家版定帧" loading="eager" decoding="async">
+  </a><figcaption>双箱船闸 · 11.07 玩家版定帧</figcaption>
+</figure>
+</div>
 
-    <section class="toy-section" id="sec-2" aria-labelledby="toy-origin">
-      <header class="toy-heading"><span class="toy-number">02</span><h2 id="toy-origin">设计原点：重构平等的协作关系</h2></header>
-      <div class="toy-prose">
-        <p>队友做出的第一版 Demo 里，折纸已经可以改变物件，小球更多是配合它行动。</p>
-        <p>我把小球的“连接”从角色之间移到物件之间。小球选定参照和接收物，就能把一种属性传过去。</p>
-        <p>折纸可以在身边改变物件的尺度。它给出一个新的状态，小球就能把这个状态传到折纸够不着的地方。</p>
-        <p>我让两种能力轮流创造下一步。折纸能为小球准备参照，小球也能用传过去的变化为折纸开路。</p>
-      </div>
-      <div class="toy-source toy-demo-wrap">
-        <div class="rule-demo" data-rule-demo aria-labelledby="toy-demo-title">
-          <h3 id="toy-demo-title">试一试：规则交互演示</h3>
-          <div class="toy-prose toy-demo-copy">
-            <p>点「建立连接」，看接收物的高度怎样变化。</p>
-            <p>断开后，接收物会保留结果，也可以成为下一次连接的参照。</p>
-          </div>
-          <div class="rule-controls">
-            <label>参照 <select data-from aria-label="参照物"><option value="0">A</option><option value="1">B</option><option value="2">C</option></select></label>
-            <label>接收 <select data-to aria-label="接收物"><option value="0">A</option><option value="1" selected>B</option><option value="2">C</option></select></label>
-            <label>近身调整 <input type="range" min="1" max="4" step="1" value="2" aria-label="参照物高度"></label>
-            <button type="button" data-link aria-pressed="false">建立连接</button>
-            <button type="button" data-reset>重置</button>
-          </div>
-          <div class="rule-bars">
-            <div><div class="rule-bar"></div><span>A · 高度 <span data-value></span></span></div>
-            <div><div class="rule-bar"></div><span>B · 高度 <span data-value></span></span></div>
-            <div><div class="rule-bar"></div><span>C · 高度 <span data-value></span></span></div>
-          </div>
-          <output aria-live="polite"></output>
-        </div>
-      </div>
-    </section>
+<section class="case-section" id="abilities" aria-labelledby="abilities-title">
+  <header class="case-heading"><span class="case-number">01</span><h2 id="abilities-title">能力体系重构与早期原型探索</h2></header>
+<div class="case-grid case-split">
+<div class="case-unit"><div class="case-prose"><p>接手关卡扩展时，队友的第一版 Demo 里并没有折纸这一角色——最初的形态是玩家操控一颗玻璃珠，另一颗珠子仅具备自动跟随或暂停功能；角色本身没有主动能力，解谜完全依赖关卡内预设的杠杆、滑轮与压板等物理道具。</p></div>
+</div>
+<figure class="case-figure case-light">
+  <a href="../../assets/game-02/review/first-demo.webp" data-image data-title="第一版双珠 Demo" data-caption="第一版 Demo：关卡进展由场景机关驱动。" aria-label="放大：第一版双珠 Demo">
+    <img src="../../assets/game-02/review/first-demo.webp" width="2240" height="1056" alt="第一版双珠 Demo" loading="lazy" decoding="async">
+  </a><figcaption>第一版 Demo：关卡进展由场景机关驱动。</figcaption>
+</figure>
+</div>
+<div class="case-prose"><p>为了把“双人同行”从跟随关系变成真正的机制互赖，我重新设计并确立了一套互补的双角色能力体系：</p></div>
+<ul class="case-grid case-ruled case-copy-list"><li class="case-unit"><p><strong>折纸（本地状态改变者）</strong>：必须<strong>近身靠近</strong>目标物件，才能调整其物理尺度或行为形态（如长度、高度、磁场范围、视野范围、摆动节拍或纸构件结构）。它的优势是“能够创造新状态”，局限是“必须亲身抵达现场”。</p></li><li class="case-unit"><p><strong>玻璃珠（有向状态传递者）</strong>：在作用范围内先选定参照物、再选定接收物，将前者的属性同步给后者；连接断开后，接收物会<strong>保留已传递的状态</strong>，并能继续充当下一跳的新参照。它的优势是“跨空间传递与状态留存”，局限是“无法凭空造出原本不存在的状态”。</p></li></ul>
+<div class="case-prose"><p>两种能力叠合后，每一关的解谜都变成了「谁能站到哪里 → 先改哪件物体 → 按什么方向传递 → 断开后如何保留状态去接回同伴」的空间编排。在正式铺开 8 个关卡前，我先通过「风琴书桌 III」原型验证了这套规则的泛化潜力——确认“改尺度 + 传属性”不仅适用于书本高度与进深等空间变量，也能自然延伸到指针表所代表的时间维度。</p></div>
+<figure class="case-set">
+<div class="case-grid">
+<figure class="case-figure case-light">
+  <a href="../../assets/game-02/book.webp" data-image data-title="风琴书桌 III 的书本高低原型" data-caption="" aria-label="放大：风琴书桌 III 的书本高低原型">
+    <img src="../../assets/game-02/book.webp" width="1224" height="810" alt="风琴书桌 III 的书本高低原型" loading="lazy" decoding="async">
+  </a>
+</figure>
+<figure class="case-figure case-light">
+  <a href="../../assets/game-02/clock.webp" data-image data-title="风琴书桌 III 的钟表时间原型" data-caption="" aria-label="放大：风琴书桌 III 的钟表时间原型">
+    <img src="../../assets/game-02/clock.webp" width="1224" height="810" alt="风琴书桌 III 的钟表时间原型" loading="lazy" decoding="async">
+  </a>
+</figure>
+</div><figcaption>开发原型 · 风琴书桌 III 先用书本测试几何尺度，再用钟表测试时间能否沿用同一套能力。</figcaption>
+</figure>
+</section>
 
-    <section class="toy-section" id="sec-3" aria-labelledby="toy-translation">
-      <header class="toy-heading"><span class="toy-number">03</span><h2 id="toy-translation">概念转译：从物理尺寸到抽象尺度</h2></header>
-      <div class="toy-prose">
-        <p>我在三个关卡里沿用同一套操作，逐步改变玩家需要观察的关系。尺度从可以直接比较的尺寸，延伸到时间与空间。</p>
-        <p>三个切片都从玩家能当场验证的变化出发。门有没有开、摆槌何时让路、视野有没有缩短，本身就是线索。</p>
-      </div>
+<section class="case-section" id="level-studies" aria-labelledby="level-studies-title">
+  <header class="case-heading"><span class="case-number">02</span><h2 id="level-studies-title">三个代表关卡：从无字教学、语义转折到状态留存</h2></header>
+<div class="case-prose"><p>围绕同一套双角色规则，我把 8 个关卡按「建立规则 → 转换对象语义 → 制造同伴留守困境」逐步推进。以下三关分别对应这一演进中的三个关键节点（页面同时标注开发期设计稿/可玩网页原型与 11.07 Godot 玩家版演示）：</p></div>
+<article class="case-unit case-chapter"><div class="case-prose"><p><strong>02 初次同行（无字教学）</strong>：两条并行走廊天然隔开两名角色，让彼此互相开门成为刚需。玩家在推进中分三步无痛建立完整认知：先传播门闩长度（空间尺度），再借聚光灯改变亮星数量并同步给星锁（数量属性），最后复制翼锁的展翼形态（离散状态），并在过程中自然发现“已经改变的物件可以再次作为参照”。</p></div>
+<figure class="case-set">
+<div class="case-grid">
+<figure class="case-figure case-light">
+  <a href="../../assets/game-02/corridor-scale.jpg" data-image data-title="初次同行：门闩与长度" data-caption="" aria-label="放大：初次同行：门闩与长度">
+    <img src="../../assets/game-02/corridor-scale.jpg" width="1120" height="630" alt="初次同行：门闩与长度" loading="lazy" decoding="async">
+  </a>
+</figure>
+<figure class="case-figure case-light">
+  <a href="../../assets/game-02/corridor-count.jpg" data-image data-title="初次同行：亮星数量" data-caption="" aria-label="放大：初次同行：亮星数量">
+    <img src="../../assets/game-02/corridor-count.jpg" width="1120" height="630" alt="初次同行：亮星数量" loading="lazy" decoding="async">
+  </a>
+</figure>
+</div><figcaption>开发原型 · 用门闩长度和亮星数量建立可观察的反馈。</figcaption>
+</figure>
+<div class="case-inset"><figure class="case-video">
+  <video controls playsinline preload="none" poster="../../assets/game-02/corridor.jpg" aria-label="初次同行玩家版录像">
+    <source src="../../assets/game-02/corridor.mp4" type="video/mp4">
+    <a href="../../assets/game-02/corridor.mp4">打开视频：初次同行玩家版录像</a>
+  </source></video><figcaption>11.07 玩家版视频演示</figcaption>
+</figure></div>
+</article>
+<article class="case-unit case-chapter"><div class="case-prose"><p><strong>05 磁力玩具台（机制语义的关卡内转折）</strong>：前半段由折纸调整磁场范围推动轨道屏风作为物理掩护，借掩护绕至侧面缩短机器人 A 的视野；推进至中后段时，单纯的物理遮挡不再够用，关卡借此引导玩家完成一次认知跃迁——把“复制对象”从环境物件转向<strong>机器人自身的扫描朝向</strong>，依次执行 <code>C→B</code> 与 <code>A→C</code> 的朝向同步，从“躲视野”升级为“改朝向”。</p></div>
+<figure class="case-set">
+<div class="case-grid case-three">
+<figure class="case-figure case-light">
+  <a href="../../assets/game-02/magnet-track-revision.jpg" data-image data-title="屏风的轨道与初始位置示意" data-caption="" aria-label="放大：屏风的轨道与初始位置示意">
+    <img src="../../assets/game-02/magnet-track-revision.jpg" width="1800" height="1042" alt="屏风的轨道与初始位置示意" loading="lazy" decoding="async">
+  </a>
+</figure>
+<figure class="case-figure case-light">
+  <a href="../../assets/game-02/magnet-near-a.jpg" data-image data-title="折纸借屏风接近机器人" data-caption="" aria-label="放大：折纸借屏风接近机器人">
+    <img src="../../assets/game-02/magnet-near-a.jpg" width="1120" height="630" alt="折纸借屏风接近机器人" loading="lazy" decoding="async">
+  </a>
+</figure>
+<figure class="case-figure case-light">
+  <a href="../../assets/game-02/magnet-copy-c-b.jpg" data-image data-title="小球同步 C 到 B 的扫描朝向" data-caption="" aria-label="放大：小球同步 C 到 B 的扫描朝向">
+    <img src="../../assets/game-02/magnet-copy-c-b.jpg" width="1120" height="630" alt="小球同步 C 到 B 的扫描朝向" loading="lazy" decoding="async">
+  </a>
+</figure>
+</div><figcaption>开发图纸与操作定帧 · 从移动屏风与缩小视野，过渡到同步机器人的扫描朝向。</figcaption>
+</figure>
+<div class="case-inset"><figure class="case-video">
+  <video controls playsinline preload="none" poster="../../assets/game-02/magnet.jpg" aria-label="磁力玩具台玩家版录像">
+    <source src="../../assets/game-02/magnet.mp4" type="video/mp4">
+    <a href="../../assets/game-02/magnet.mp4">打开视频：磁力玩具台玩家版录像</a>
+  </source></video><figcaption>11.07 玩家版视频演示</figcaption>
+</figure></div>
+<div class="case-links"><a href="../../assets/game-02/demos/magnet.html" target="_blank" rel="noopener noreferrer">试玩历史原型 V3 ↗</a></div>
+</article>
+<article class="case-unit case-chapter"><div class="case-prose"><p><strong>11 双箱船闸（状态留存与同伴关系）</strong>：左岸水箱仅能支撑低岸通行，右岸水箱虽能制造高水位却带有自动回位结构，迫使折纸必须离船留在右岸维持水位。玻璃珠借此先行抵达高岸，将水道的高水位<strong>反向存回左箱</strong>，随后降下水位接回同伴，最终凭左箱保存的高水位共同抬船通关。站位限制、有向传递与“断开后保留状态”三条规则在这里彻底咬合。</p></div>
+<div class="case-grid">
+<figure class="case-figure case-light">
+  <a href="../../assets/game-02/lock-layout-diagram.jpg" data-image data-title="双箱船闸布局图" data-caption="开发图纸 · 比较两座水箱与高岸的相对位置。" aria-label="放大：双箱船闸布局图">
+    <img src="../../assets/game-02/lock-layout-diagram.jpg" width="1546" height="336" alt="双箱船闸布局图" loading="lazy" decoding="async">
+  </a><figcaption>开发图纸 · 比较两座水箱与高岸的相对位置。</figcaption>
+</figure>
+<figure class="case-video">
+  <video controls playsinline preload="none" poster="../../assets/game-02/lock.jpg" aria-label="双箱船闸玩家版录像">
+    <source src="../../assets/game-02/lock.mp4" type="video/mp4">
+    <a href="../../assets/game-02/lock.mp4">打开视频：双箱船闸玩家版录像</a>
+  </source></video><figcaption>11.07 玩家版视频演示</figcaption>
+</figure>
+</div>
+<div class="case-links"><a href="../../assets/game-02/demos/lock.html" target="_blank" rel="noopener noreferrer">试玩历史原型 V1.1 ↗</a></div>
+</article>
+</section>
 
-      <article class="toy-slice" aria-labelledby="toy-corridor">
-        <div class="toy-slice-copy">
-          <h3 id="toy-corridor"><span>视觉与空间</span>初次同行</h3>
-          <p>我用门闩伸缩教长度，再用亮起的星星数量，让玩家看见范围变化的后果。</p>
-          <p>两条路各有需要对方开启的机关。玩家从物件形状和开启反馈中判断谁先行动、谁接着帮忙。</p>
-        </div>
-        <figure class="toy-figure">
-          <div class="toy-image-pair">
-            <a class="toy-light-frame" href="../../assets/game-02/corridor-scale.jpg" data-image data-title="初次同行 · 门闩" aria-label="放大门闩演示截图">
-              <img src="../../assets/game-02/corridor-scale.jpg" width="1120" height="630" alt="初次同行的门闩长度演示" loading="lazy" decoding="async">
-            </a>
-            <a class="toy-light-frame" href="../../assets/game-02/corridor-count.jpg" data-image data-title="初次同行 · 星星" aria-label="放大星星数量演示截图">
-              <img src="../../assets/game-02/corridor-count.jpg" width="1120" height="630" alt="初次同行中亮起的星星数量演示" loading="lazy" decoding="async">
-            </a>
-          </div>
-          <figcaption>玩家版演示 · 门闩的伸缩和星星的亮起，让两种尺度变化各有可见的反馈。</figcaption>
-        </figure>
-      </article>
+<section class="case-section" id="level-progression" aria-labelledby="level-progression-title">
+  <header class="case-heading"><span class="case-number">03</span><h2 id="level-progression-title">本人负责的 8 个关卡演进全景</h2></header>
+<div class="case-prose"><p>全作共 14 关，下表梳理了我独立负责的 8 个关卡（发行序号 01 / 02 / 05 / 06 / 08 / 11 / 13 / 14，其余 6 关由队友设计），呈现同一组基础动作如何依次拓展至长度、磁场、物理连锁、节拍相位、水位反存与镜面倒影，并附上 4 个可交互 HTML 历史原型与玩家版演示。</p></div>
+<table class="case-table case-level-table">
+  <caption>全作 14 关中的 8 关，其余 6 关由队友设计</caption>
+  <thead><tr><th scope="col">发行序号</th><th scope="col">关卡</th><th scope="col">玩家在这里理解什么</th></tr></thead>
+  <tbody><tr><td>01</td><th scope="row">第一道折痕</th><td>把风扇的转动传给发条，第一次建立属性连接。<details class="case-watch"><summary>观看 11.07 玩家版录像</summary><figure class="case-video">
+  <video controls playsinline preload="none" poster="../../assets/game-02/fold.jpg" aria-label="第一道折痕玩家版录像">
+    <source src="../../assets/game-02/fold.mp4" type="video/mp4">
+    <a href="../../assets/game-02/fold.mp4">打开视频：第一道折痕玩家版录像</a>
+  </source></video><figcaption>11.07 玩家版视频演示</figcaption>
+</figure></details></td></tr><tr><td>02</td><th scope="row">初次同行</th><td>用长度、亮星数量与展翼形态互相开路。</td></tr><tr><td>05</td><th scope="row">磁力玩具台</th><td>从借屏风改变接近条件，到同步扫描朝向。<div class="case-links"><a href="../../assets/game-02/demos/magnet.html" target="_blank" rel="noopener noreferrer">试玩网页原型 V3 ↗</a></div></td></tr><tr><td>06</td><th scope="row">多米诺接力</th><td>将转动传到触发点，带动一整条骨牌连锁。<details class="case-watch"><summary>观看 11.07 玩家版录像</summary><figure class="case-video">
+  <video controls playsinline preload="none" poster="../../assets/game-02/domino.jpg" aria-label="多米诺接力玩家版录像">
+    <source src="../../assets/game-02/domino.mp4" type="video/mp4">
+    <a href="../../assets/game-02/domino.mp4">打开视频：多米诺接力玩家版录像</a>
+  </source></video><figcaption>11.07 玩家版视频演示</figcaption>
+</figure></details></td></tr><tr><td>08</td><th scope="row">同拍·乐器仓库</th><td>区分速度与相对时机，用节奏差创造通过窗口。<div class="case-links"><a href="../../assets/game-02/demos/warehouse.html" target="_blank" rel="noopener noreferrer">试玩网页原型 V7.4 ↗</a></div><details class="case-watch"><summary>观看 11.07 玩家版录像</summary><figure class="case-video">
+  <video controls playsinline preload="none" poster="../../assets/game-02/beat.jpg" aria-label="同拍·乐器仓库玩家版录像">
+    <source src="../../assets/game-02/beat.mp4" type="video/mp4">
+    <a href="../../assets/game-02/beat.mp4">打开视频：同拍·乐器仓库玩家版录像</a>
+  </source></video><figcaption>11.07 玩家版视频演示</figcaption>
+</figure></details></td></tr><tr><td>11</td><th scope="row">双箱船闸</th><td>蓄存高水位，再利用留存状态接回同伴。<div class="case-links"><a href="../../assets/game-02/demos/lock.html" target="_blank" rel="noopener noreferrer">试玩网页原型 V1.1 ↗</a></div></td></tr><tr><td>13</td><th scope="row">镜宫·纸艺三段</th><td>识别倒影可以作为参照，把镜像关系带回现场解谜。<div class="case-links"><a href="../../assets/game-02/demos/mirror.html" target="_blank" rel="noopener noreferrer">试玩网页原型 V2 ↗</a></div><details class="case-watch"><summary>观看 11.07 玩家版录像</summary><figure class="case-video">
+  <video controls playsinline preload="none" poster="../../assets/game-02/mirror.jpg" aria-label="镜宫玩家版录像">
+    <source src="../../assets/game-02/mirror.mp4" type="video/mp4">
+    <a href="../../assets/game-02/mirror.mp4">打开视频：镜宫玩家版录像</a>
+  </source></video><figcaption>11.07 玩家版视频演示</figcaption>
+</figure></details></td></tr><tr><td>14</td><th scope="row">独白</th><td>在熟悉的流水线上独自完成重复传动。<details class="case-watch"><summary>观看 11.07 玩家版录像</summary><figure class="case-video">
+  <video controls playsinline preload="none" poster="../../assets/game-02/solo.jpg" aria-label="独白玩家版录像">
+    <source src="../../assets/game-02/solo.mp4" type="video/mp4">
+    <a href="../../assets/game-02/solo.mp4">打开视频：独白玩家版录像</a>
+  </source></video><figcaption>11.07 玩家版视频演示</figcaption>
+</figure></details></td></tr></tbody>
+</table>
+</section>
 
-      <article class="toy-slice" aria-labelledby="toy-warehouse">
-        <div class="toy-slice-copy">
-          <h3 id="toy-warehouse"><span>时间与节奏</span>同拍·乐器仓库</h3>
-          <p>节拍器把时间变成能看见的摆动。折纸改变节拍，小球把较慢的节拍同步给两只摆槌。</p>
-          <p>两只摆槌即使变慢，也可能同时挡路。</p>
-          <p>我用八音盒提供错开的参照，让玩家区分摆动的快慢和彼此的时机。</p>
-          <a class="toy-prototype" href="../../assets/game-02/demos/warehouse.html" target="_blank" rel="noopener noreferrer">试玩历史原型 V7.4</a>
-        </div>
-        <figure class="toy-figure">
-          <a class="toy-light-frame" href="../../assets/game-02/warehouse.webp" data-image data-title="乐器仓库 · 早期网页原型" aria-label="放大乐器仓库原型图">
-            <img src="../../assets/game-02/warehouse.webp" width="1580" height="902" alt="乐器仓库早期原型中，乐器、摆槌与通道的空间布局" loading="lazy" decoding="async">
-          </a>
-          <figcaption>网页原型 V7.1 · 在同一条通道里组织摆槌与节拍机关。</figcaption>
-        </figure>
-      </article>
-
-      <article class="toy-slice" aria-labelledby="toy-magnet">
-        <div class="toy-slice-copy">
-          <h3 id="toy-magnet"><span>条件与参照</span>磁力玩具台</h3>
-          <p>折纸要近身才能缩短机器人的视野。两名角色先利用磁极和磁场移动屏风，创造可以靠近的位置。</p>
-          <p>测试中，我封住了等机器人转头就能通过的空隙，同时调整操作范围，让推远的屏风仍能拉回。</p>
-          <a class="toy-prototype" href="../../assets/game-02/demos/magnet.html" target="_blank" rel="noopener noreferrer">试玩历史原型 V3</a>
-        </div>
-        <div class="toy-image-pair">
-          <figure class="toy-figure">
-            <a class="toy-light-frame" href="../../assets/game-02/magnet-near-a.jpg" data-image data-title="磁力玩具台 · 侧面接近" aria-label="放大折纸接近机器人的演示截图">
-              <img src="../../assets/game-02/magnet-near-a.jpg" width="1120" height="630" alt="折纸利用屏风遮挡从侧面接近机器人" loading="lazy" decoding="async">
-            </a>
-            <figcaption>玩家版演示 · 屏风提供接近机器人的侧面位置。</figcaption>
-          </figure>
-          <figure class="toy-figure">
-            <a href="../../assets/game-02/magnet-track-revision.jpg" data-image data-title="磁力玩具台 · 轨道迭代" aria-label="放大屏风轨道修改图">
-              <img src="../../assets/game-02/magnet-track-revision.jpg" width="1800" height="1042" alt="屏风轨道与初始位置的修改示意" loading="eager">
-            </a>
-            <figcaption>修改图 · 调整轨道方向与屏风初始位置。</figcaption>
-          </figure>
-        </div>
-      </article>
-    </section>
-
-    <section class="toy-section" id="sec-4" aria-labelledby="toy-process">
-      <header class="toy-heading"><span class="toy-number">04</span><h2 id="toy-process">全景概览与过程沉淀</h2></header>
-      <table class="toy-levels">
-        <caption>我独立设计的 8 关能力演进总表</caption>
-        <thead><tr><th scope="col">发布顺序</th><th scope="col">关卡</th><th scope="col">玩家在这里理解什么</th></tr></thead>
-        <tbody>
-          <tr><td>01</td><th scope="row">第一道折痕</th><td>把转动从风扇传给发条</td></tr>
-          <tr><td>02</td><th scope="row">初次同行</th><td>用长度与数量互相开路</td></tr>
-          <tr><td>05</td><th scope="row">磁力玩具台</th><td>借掩护改变接近条件</td></tr>
-          <tr><td>06</td><th scope="row">多米诺接力</th><td>用转动触发骨牌连锁</td></tr>
-          <tr><td>08</td><th scope="row">同拍·乐器仓库</th><td>分辨速度与相对时机</td></tr>
-          <tr><td>11</td><th scope="row">双箱船闸</th><td>保存高水位，接回同伴 <a class="toy-prototype" href="../../assets/game-02/demos/lock.html" target="_blank" rel="noopener noreferrer" aria-label="试玩双箱船闸历史原型 V1.1">原型 V1.1</a></td></tr>
-          <tr><td>13</td><th scope="row">镜宫·纸艺三段</th><td>用倒影作为可同步的参照 <a class="toy-prototype" href="../../assets/game-02/demos/mirror.html" target="_blank" rel="noopener noreferrer" aria-label="试玩镜宫历史原型 V2">原型 V2</a></td></tr>
-          <tr><td>14</td><th scope="row">独白</th><td>从熟悉的动作感到同伴缺席</td></tr>
-        </tbody>
-      </table>
-      <figure class="toy-figure">
-        <div class="toy-image-pair">
-          <a class="toy-light-frame" href="../../assets/game-02/book.webp" data-image data-title="风琴书桌 III · 书本尺度" aria-label="放大风琴书桌书本尺度原型">
-            <img src="../../assets/game-02/book.webp" width="1224" height="810" alt="风琴书桌 III 的书本高度与进深实验" loading="eager">
-          </a>
-          <a class="toy-light-frame" href="../../assets/game-02/clock.webp" data-image data-title="风琴书桌 III · 时间尺度" aria-label="放大风琴书桌时间尺度原型">
-            <img src="../../assets/game-02/clock.webp" width="1224" height="810" alt="风琴书桌 III 的指针表时间尺度实验" loading="eager">
-          </a>
-        </div>
-        <figcaption>风琴书桌 III · 早期网页原型分别测试了书本的几何尺度和指针表的时间尺度。</figcaption>
-      </figure>
-      <p class="toy-prose">我先用网页原型验证解法，再在 Godot 里统一选取、连接和反馈，让玩家把学过的规则带到下一关。</p>
-    </section>
-
-    <footer class="site-footer">
-      <span>徐渊植 / Yuanzhi Xu</span>
-      <a href="../../category/games/">GAME / INTERACTION</a>
-      <a href="#top">回到顶部 ↑</a>
-    </footer>
+<section class="case-section" id="integration" aria-labelledby="integration-title">
+  <header class="case-heading"><span class="case-number">04</span><h2 id="integration-title">交互一致性整合与玩法收束</h2></header>
+<div class="case-grid case-split">
+<div class="case-unit"><div class="case-prose"><p>将多关独立网页原型收拢进 Godot 玩家版时，最容易暴露体验割裂的是操作习惯的不统一。在整合阶段，我协同完成了全作交互一致性的收口：把早期“点击物体旁临时节点”的繁琐交互统一改为<strong>直接选中物体本身</strong>，规范参照与接收顺序、有效范围提示与完成状态反馈，并排查如装饰栏杆遮挡操作区这类干扰空间读解的画面问题。</p></div>
+</div>
+<figure class="case-figure case-light">
+  <a href="../../assets/game-02/prototype-feedback-rails.jpg" data-image data-title="Godot 整合时测试选取和范围反馈" data-caption="检查同一选取顺序与范围反馈在关卡中的表现。" aria-label="放大：Godot 整合时测试选取和范围反馈">
+    <img src="../../assets/game-02/prototype-feedback-rails.jpg" width="210" height="162" alt="Godot 整合时测试选取和范围反馈" loading="lazy" decoding="async">
+  </a><figcaption>检查同一选取顺序与范围反馈在关卡中的表现。</figcaption>
+</figure>
+</div>
+<div class="case-unit"><div class="case-prose"><p>结构收尾上，我将最后一关 <code>14 独白</code> 与第一关 <code>01 第一道折痕</code> 做成了严格的首尾镜像：玻璃珠独自回到最初的流水线，再次为六个发条机器人逐一复制转动——操作和开场完全一致，唯独折纸不再出现。整套机制一路都在训练玩家“什么时候需要同伴”，因此在终章无需任何台词，仅凭操作本身就能让玩家切身感受到缺席的重量。</p></div>
+<figure class="case-figure case-inset case-light">
+  <a href="../../assets/game-02/solo.jpg" data-image data-title="独白关卡玩家版定帧" data-caption="《独白》重回流水线 · 11.07 玩家版定帧" aria-label="放大：独白关卡玩家版定帧">
+    <img src="../../assets/game-02/solo.jpg" width="1120" height="630" alt="独白关卡玩家版定帧" loading="lazy" decoding="async">
+  </a><figcaption>《独白》重回流水线 · 11.07 玩家版定帧</figcaption>
+</figure>
+</div>
+<div class="case-links"><a href="https://thishi.itch.io/toyduet" target="_blank" rel="noopener noreferrer">itch.io 试玩页 ↗</a></div>
+<section class="case-summary" id="project-summary" aria-labelledby="project-summary-title"><h3 id="project-summary-title">项目总结</h3>
+<div class="case-prose"><p>《玩具岛》是我围绕“核心机制如何长出空间叙事”做的一次完整关卡设计实践。通过先用轻量 HTML/JS 原型快速验证单关解法与边界条件，再统一整合进 Godot 玩家版，项目在短周期内跑通了从无字教学到高阶机制组合的完整曲线；更重要的是，它验证了规则本身完全可以承担情绪表达——当同伴的缺席是通过操作手感而非过场台词被察觉时，玩法与叙事才真正合二为一。</p></div>
+</section>
+</section>
+    <footer class="site-footer"><span>徐渊植 / Yuanzhi Xu</span><a href="../../category/games/">游戏与互动</a><a href="#top">回到顶部 ↑</a></footer>
   </main>
-
   <dialog id="image-viewer" class="image-viewer" aria-labelledby="viewer-title">
     <div class="viewer-header"><div><h2 id="viewer-title"></h2><p id="viewer-caption"></p></div><button type="button" id="viewer-close">关闭</button></div>
     <div class="viewer-stage"><img id="viewer-image" alt=""></div>

@@ -3,21 +3,49 @@
 }
 
 .work-home .work-home-intro {
-  max-width: 49rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.75rem 2rem;
+  align-items: start;
 }
 
 .work-home h1 {
   color: var(--fg);
-  font: 500 clamp(1.025rem, 1.65vw, 1.5rem)/1.6 var(--sans);
+  font: 500 clamp(1.2rem, 2vw, 1.7rem)/1.35 var(--sans);
+}
+
+.work-home h1 span {
+  font-weight: 400;
+}
+
+.work-home .work-home-disciplines,
+.work-home .work-home-statement {
+  font: 400 0.9375rem/1.6 var(--sans);
+  margin-top: 0.25rem;
+}
+
+.work-home .work-home-statement {
+  color: #b7b7b4;
 }
 
 .work-home .work-home-contact {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 0.35rem 1.25rem;
-  margin-top: 0.7rem;
+  display: grid;
+  gap: 0.35rem;
+  justify-items: end;
   font: 400 0.875rem/1.6 var(--mono);
+}
+
+@media (max-width: 600px) {
+  .work-home .work-home-intro {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .work-home .work-home-contact {
+    justify-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1rem;
+  }
 }
 
 .work-home .work-home-contact a,

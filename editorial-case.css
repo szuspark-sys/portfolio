@@ -1,0 +1,420 @@
+.case-page {
+  --case-ink: #efede7;
+  --case-text: #d4d2cc;
+  --case-muted: #aaa8a2;
+  --case-rule: #35342f;
+  --case-accent: #e5ddc7;
+  color: var(--case-ink);
+}
+
+.case-page.astra-case {
+  --case-accent: #e2c188;
+}
+
+.case-page .case-main {
+  padding-top: clamp(1.75rem, 4vw, 4rem);
+}
+
+.case-hero,
+.case-section {
+  display: grid;
+  min-width: 0;
+  gap: clamp(1.15rem, 2.3vw, 2.2rem);
+}
+
+.case-page .case-section {
+  margin-top: clamp(3.75rem, 7.5vw, 8rem);
+  padding-top: clamp(1rem, 2.2vw, 1.85rem);
+  border-top: 1px solid var(--case-rule);
+  scroll-margin-top: 1rem;
+}
+
+.case-page .case-title {
+  max-width: 32ch;
+  color: var(--case-ink);
+  font: 500 clamp(1.7rem, 4vw, 3.375rem)/1.24 var(--sans);
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+}
+
+.case-page .case-subtitle {
+  max-width: 36em;
+  color: var(--case-ink);
+  font: 400 clamp(1.05rem, 1.55vw, 1.35rem)/1.65 var(--sans);
+}
+
+.case-hero > header {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.case-page .case-heading {
+  display: flex;
+  gap: 0.8rem;
+  align-items: baseline;
+  min-width: 0;
+}
+
+.case-page .case-number {
+  flex: none;
+  color: var(--case-muted);
+  font: 400 0.875rem/1.5 var(--mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.case-page .case-heading h2 {
+  color: var(--case-accent);
+  font: 600 clamp(1.22rem, 2.35vw, 1.9rem)/1.42 var(--sans);
+  text-wrap: balance;
+}
+
+.case-page .case-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.35rem;
+  list-style: none;
+  padding: 0;
+  color: var(--case-muted);
+  font: 400 0.875rem/1.65 var(--mono);
+}
+
+.case-page .case-prose {
+  max-width: 47rem;
+}
+
+.case-page .case-prose p,
+.case-page .case-copy,
+.case-page .case-unit p,
+.case-page .case-tools dd {
+  color: var(--case-text);
+  font: 400 1rem/1.82 var(--sans);
+  overflow-wrap: anywhere;
+}
+
+.case-page .case-prose p + p {
+  margin-top: 0.8rem;
+}
+
+.case-page .case-unit {
+  min-width: 0;
+  display: grid;
+  align-content: start;
+  gap: clamp(0.55rem, 1.25vw, 1.1rem);
+}
+
+.case-page .case-unit h3,
+.case-page .case-tools dt {
+  color: var(--case-ink);
+  font: 600 1.05rem/1.5 var(--sans);
+}
+
+.case-page .case-grid {
+  display: grid;
+  grid-template-columns: var(--case-cols, repeat(2, minmax(0, 1fr)));
+  gap: clamp(0.75rem, 1.875vw, 1.75rem);
+  align-items: start;
+  min-width: 0;
+}
+
+.case-page .case-three {
+  --case-cols: repeat(3, minmax(0, 1fr));
+}
+
+.case-page .case-split {
+  --case-cols: minmax(0, 3fr) minmax(0, 7fr);
+  gap: clamp(1.1rem, 3vw, 2.6rem);
+}
+
+.case-page .case-ruled > .case-unit {
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--case-rule);
+}
+
+.case-page .case-figure,
+.case-page .case-set,
+.case-page .case-video {
+  min-width: 0;
+  margin: 0;
+}
+
+.case-page .case-figure a {
+  display: block;
+  min-width: 0;
+}
+
+.case-page .case-figure img,
+.case-page .case-video video {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.case-page .case-contained .case-figure img,
+.case-page .case-figure.case-contained img {
+  width: auto;
+  max-width: 100%;
+  max-height: 74vh;
+  margin-inline: auto;
+}
+
+.case-page .case-inset {
+  width: min(100%, 58rem);
+  margin-inline: auto;
+}
+
+.case-page .case-light img {
+  box-sizing: border-box;
+  padding: clamp(2px, 0.35vw, 5px);
+  border-radius: 3px;
+  background: #d5d5d0;
+}
+
+.case-page figcaption {
+  margin-top: 0.55rem;
+  color: var(--case-muted);
+  font: 400 0.8125rem/1.65 var(--sans);
+}
+
+.case-page .case-links {
+  display: flex;
+  gap: 0.55rem 1.4rem;
+  flex-wrap: wrap;
+}
+
+.case-page .case-links a,
+.case-page .case-inline-link {
+  color: var(--case-accent);
+  font: 400 0.875rem/1.6 var(--mono);
+  text-decoration: underline;
+  text-decoration-color: #756f62;
+  text-underline-offset: 0.23em;
+}
+
+.case-page .case-links a:hover,
+.case-page .case-inline-link:hover {
+  color: var(--case-ink);
+}
+
+.case-page .case-credit {
+  padding-block: 0.65rem;
+  border-block: 1px solid var(--case-rule);
+}
+
+.case-page .case-tools {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: clamp(1rem, 3vw, 3rem);
+}
+
+.case-page .case-tools > div {
+  padding-block: 0.75rem;
+  border-bottom: 1px solid var(--case-rule);
+}
+
+.case-page .case-tools dd {
+  margin-top: 0.25rem;
+}
+
+.case-page .case-sequence {
+  display: grid;
+  gap: 0.7rem;
+  padding-left: 1.35rem;
+  max-width: 48rem;
+  color: var(--case-text);
+  font: 400 1rem/1.8 var(--sans);
+}
+
+.case-page .case-sequence li::marker {
+  color: var(--case-accent);
+  font-family: var(--mono);
+}
+
+.case-page .case-flow {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  padding: 0;
+  gap: clamp(0.3rem, 1.4vw, 1.4rem);
+}
+
+.case-page .case-flow li {
+  padding: 0.62rem 0.35rem;
+  border-bottom: 1px solid #a98350;
+  color: var(--case-accent);
+  font: 500 0.875rem/1.55 var(--sans);
+  text-align: center;
+}
+
+.case-page .case-flow li + li::before {
+  content: '→ ';
+  color: #c79d5b;
+}
+
+.case-page .case-chapter + .case-chapter {
+  margin-top: clamp(1.5rem, 4vw, 3.65rem);
+}
+
+.case-page .case-chapter {
+  gap: clamp(0.85rem, 2vw, 1.7rem);
+}
+
+.case-page .case-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font: 400 0.9375rem/1.65 var(--sans);
+}
+
+.case-page .case-table caption {
+  margin-bottom: 0.6rem;
+  text-align: left;
+  color: var(--case-muted);
+}
+
+.case-page .case-table :is(th, td) {
+  padding: 0.75rem 0.55rem;
+  border-bottom: 1px solid var(--case-rule);
+  vertical-align: top;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+.case-page .case-table th {
+  color: var(--case-ink);
+  font-weight: 600;
+}
+
+.case-page .case-table td {
+  color: var(--case-text);
+}
+
+.case-page .case-table :is(th, td):first-child {
+  width: 20%;
+  padding-inline-start: 0;
+}
+
+.case-page .case-level-table :is(th, td):first-child {
+  width: 12%;
+}
+
+.case-page .case-level-table :is(th, td):nth-child(2) {
+  width: 27%;
+}
+
+.case-page .case-watch {
+  margin-top: 0.4rem;
+  max-width: 35rem;
+}
+
+.case-page .case-watch summary {
+  width: fit-content;
+  padding: 0.1rem 0;
+  color: var(--case-accent);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.case-page .case-watch[open] summary {
+  margin-bottom: 0.55rem;
+}
+
+.case-page .case-endnote {
+  max-width: 34em;
+  color: var(--case-ink);
+  font: 500 clamp(1.05rem, 1.8vw, 1.4rem)/1.65 var(--sans);
+}
+
+@media (max-width: 767px) {
+  .case-page .case-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .case-page .case-grid.case-compact {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .case-page .case-tools {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .case-page .case-table {
+    font-size: 0.8125rem;
+  }
+
+  .case-page .case-table :is(th, td) {
+    padding-inline: 0.32rem;
+  }
+
+  .case-page .case-heading {
+    gap: 0.55rem;
+  }
+
+  .case-page .case-flow li {
+    padding-inline: 0;
+    font-size: 0.75rem;
+  }
+}
+
+.case-page .toy-hero-image {
+  width: min(100%, 1130px);
+  margin-inline: auto;
+}
+
+.case-page.exhibit-case .exhibit-hero-image img {
+  max-height: 64vh;
+}
+
+.case-page .case-credit-list {
+  gap: 0.9rem clamp(1.15rem, 3vw, 2.75rem);
+  margin: 0;
+  padding-block: 1rem;
+}
+
+.case-page .case-credit-list .case-credit-period {
+  grid-column: 1 / -1;
+}
+
+.case-page .case-credit-list .case-unit {
+  gap: 0.35rem;
+}
+
+.case-page .case-credit-list dt,
+.case-page .case-summary h3 {
+  color: var(--case-accent);
+  font: 600 1rem/1.6 var(--sans);
+}
+
+.case-page .case-credit-list dd {
+  color: var(--case-text);
+  font: 400 0.9375rem/1.75 var(--sans);
+}
+
+.case-page .case-copy-list {
+  padding: 0;
+  list-style: none;
+}
+
+.case-page .case-copy-list strong,
+.case-page .case-unit .case-prose strong {
+  color: var(--case-ink);
+}
+
+.case-page .case-puzzle-portrait {
+  --case-cols: minmax(0, 3fr) minmax(0, 2fr);
+  align-items: start;
+  width: min(100%, 53rem);
+}
+
+.case-page .case-puzzle-portrait .case-figure img {
+  max-height: min(62vh, 29rem);
+}
+
+.case-page .case-summary {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: clamp(1rem, 3vw, 2.5rem);
+  padding-top: clamp(1.1rem, 2.5vw, 1.95rem);
+  border-top: 1px solid var(--case-rule);
+}
