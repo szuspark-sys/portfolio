@@ -14,41 +14,14 @@ body.a-exhibition-revised .order-exhibition .exhibit-figure figcaption {
   }
 }
 
-.case-page.exhibit-case .exhibit-hero-image,
+.case-page.exhibit-case .exhibit-hero-image img {
+  max-height: none;
+}
+
 .case-page.exhibit-case #posters .case-figure {
+  width: 82.5%;
   margin-inline: auto;
   text-align: center;
-}
-
-.case-page.exhibit-case .exhibit-hero-image {
-  width: min(100%, 55vw);
-}
-
-.case-page.exhibit-case #posters .case-figure {
-  width: min(100%, 50vw);
-}
-
-.case-page.exhibit-case .exhibit-hero-image img,
-.case-page.exhibit-case #posters .case-figure img {
-  width: auto;
-  max-width: 100%;
-  height: auto;
-  margin-inline: auto;
-}
-
-.case-page.exhibit-case .exhibit-hero-image img {
-  max-height: 64svh;
-}
-
-.case-page.exhibit-case #posters .case-figure img {
-  max-height: calc(100svh - 4rem);
-}
-
-@media (max-width: 767px) {
-  .case-page.exhibit-case .exhibit-hero-image,
-  .case-page.exhibit-case #posters .case-figure {
-    width: 100%;
-  }
 }
 
 .case-page.exhibit-case .exhibit-meta strong {
